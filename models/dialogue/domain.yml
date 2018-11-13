@@ -1,0 +1,30 @@
+%YAML 1.1
+---
+actions:
+- action_weather
+- utter_greet
+- utter_goodbye
+- utter_ask_location
+config:
+  store_entities_as_slots: true
+entities:
+- location
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- inform:
+    use_entities: true
+slots:
+  location:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_location:
+  - text: Cual es la localizacion?
+  utter_goodbye:
+  - text: hablame luego.
+  - text: chao :(
+  utter_greet:
+  - text: Hola! como puedo ayudarte?

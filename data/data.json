@@ -1,0 +1,287 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hola",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "/start",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "adios",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "cual es el clima en Berlin?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "Berlin",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hola",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "buenas",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "buen dia",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "buenos dias",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "buenas tardes",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "buenas noches",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "adios",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "chao",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "suerte",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "nos vemos",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "nos vemos luego",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Cual es el clima de hoy?",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "cual es el clima en Londres?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "Londres",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "muestrame el clima en Paris",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "Paris",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "quisiera saber cual es el clima en Vilna?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 35,
+            "end": 40,
+            "value": "Vilna",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Cual es el clima?",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "hablame del clima",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "Hoy hace buen tiempo en Barcelona?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 33,
+            "value": "Barcelona",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Voy de viaje a Londres y quiero saber que clima hace?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "Londres",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Estoy planeando mi viaje a Amsterdam. ¿Qué clima hace?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 27,
+            "end": 35,
+            "value": "Amsterdam",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Muestrema el clima en Dublin, por favor",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "Dublin",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "en Londres",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "Londres",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Lithuania",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Lithuania",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "lo siento es en Italia",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "Italia",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Hablame del clima en Vilna",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Vilna",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "El estado del tiempo en Italia",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "Italia",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Clima en Pasto",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "Pasto",
+            "entity": "location"
+          }
+        ]
+      },{
+        "text": "Clima en Aguadas",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 16,
+            "value": "Aguadas",
+            "entity": "location"
+          }
+        ]
+      },{
+        "text": "Clima en Manizales",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 18,
+            "value": "Manizales",
+            "entity": "location"
+          }
+        ]
+      }
+
+    ]
+  }
+}
