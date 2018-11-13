@@ -223,6 +223,125 @@
           }
         ]
       },
+
+      {
+        "text": "en Buenos Aires",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 15,
+            "value": "Buenos Aires",
+            "entity": "location"
+          }
+        ]
+      },
+
+      {
+        "text": "Buenos Aires",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Buenos Aires",
+            "entity": "location"
+          }
+        ]
+      },
+
+      {
+        "text": "Paris",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Paris",
+            "entity": "location"
+          }
+        ]
+      },
+
+      {
+        "text": "Manizales",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Manizales",
+            "entity": "location"
+          }
+        ]
+      },
+
+      {
+        "text": "Pereira",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Paris",
+            "entity": "location"
+          }
+        ]
+      },
+
+      {
+        "text": "Cucuta",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Cucuta",
+            "entity": "location"
+          }
+        ]
+      },
+
+      {
+        "text": "La paz",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "La Paz",
+            "entity": "location"
+          }
+        ]
+      },
+
+      {
+        "text": "Santa Cruz",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Santa Cruz",
+            "entity": "location"
+          }
+        ]
+      },
+
+      {
+        "text": "Rio de Janeiro",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "Rio de Janeiro",
+            "entity": "location"
+          }
+        ]
+      },
+
+
       {
         "text": "Lithuania",
         "intent": "inform",
