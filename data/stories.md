@@ -1,3 +1,76 @@
+## Generated Story -4441191691837717460
+* greet
+    - utter_greet
+* inform{"location": "pereira"}
+    - slot{"location": "pereira"}
+    - action_weather
+    - slot{"location": "pereira"}
+* greet
+    - utter_greet
+* inform{"location": "manizales"}
+    - slot{"location": "manizales"}
+    - action_weather
+    - slot{"location": "manizales"}
+* inform
+    - utter_ask_location
+* inform{"location": "armenia"}
+    - slot{"location": "armenia"}
+    - action_weather
+    - slot{"location": "armenia"}
+* inform{"location": "bogota"}
+    - slot{"location": "bogota"}
+    - action_weather
+    - slot{"location": "bogota"}
+* goodbye
+    - utter_goodbye
+
+## Generated Story -4441191691837717463
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* inform{"location": "pereira"}
+    - slot{"location": "pereira"}
+    - action_weather
+    - slot{"location": "pereira"}
+* greet
+    - utter_greet
+* inform{"location": "manizales"}
+    - slot{"location": "manizales"}
+    - action_weather
+    - slot{"location": "manizales"}
+* inform
+    - utter_ask_location
+* inform{"location": "armenia"}
+    - slot{"location": "armenia"}
+    - action_weather
+    - slot{"location": "armenia"}
+* inform{"location": "bogota"}
+    - slot{"location": "bogota"}
+    - action_weather
+    - slot{"location": "bogota"}
+* goodbye
+    - utter_goodbye
+
+## Generated Story 6308634580530353387
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* inform{"location": "pereira"}
+    - slot{"location": "pereira"}
+    - action_weather
+* inform{"location": "manizales"}
+    - slot{"location": "manizales"}
+    - action_weather
+* greet
+    - utter_greet
+* goodbye
+    - utter_goodbye
+
+
 ## story_001
 * greet
    - utter_greet

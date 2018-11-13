@@ -14,7 +14,7 @@ agent = Agent.load('./models/dialogue', interpreter = nlu_interpreter, action_en
 
 input_channel = TelegramInput(
         # you get this when setting up a bot
-        access_token="585586197:AAEf7BdzR3Rxac-rXaCgjMJTKNnZTFg0AbU",
+        access_token="",
         # this is your bots username
         verify="RasalinaBot",
         # the url your bot should listen for messages

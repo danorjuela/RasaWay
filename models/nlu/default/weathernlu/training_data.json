@@ -1,5 +1,6 @@
 {
   "rasa_nlu_data": {
+    "lookup_tables": [],
     "common_examples": [
       {
         "intent": "greet",
@@ -173,13 +174,37 @@
         "intent": "inform",
         "entities": [
           {
-            "end": 9,
+            "end": 10,
             "entity": "location",
             "value": "Londres",
             "start": 3
           }
         ],
         "text": "en Londres"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "end": 7,
+            "entity": "location",
+            "value": "Lima",
+            "start": 3
+          }
+        ],
+        "text": "es Lima"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "location",
+            "value": "Paris",
+            "start": 3
+          }
+        ],
+        "text": "es Paris"
       },
       {
         "intent": "inform",
@@ -197,6 +222,30 @@
         "intent": "inform",
         "entities": [
           {
+            "end": 9,
+            "entity": "location",
+            "value": "bogota",
+            "start": 3
+          }
+        ],
+        "text": "es bogota"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "location",
+            "value": "Madrid",
+            "start": 3
+          }
+        ],
+        "text": "es Madrid"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
             "end": 22,
             "entity": "location",
             "value": "Italia",
@@ -209,10 +258,10 @@
         "intent": "inform",
         "entities": [
           {
-            "end": 30,
+            "end": 26,
             "entity": "location",
             "value": "Vilna",
-            "start": 23
+            "start": 21
           }
         ],
         "text": "Hablame del clima en Vilna"
@@ -264,9 +313,20 @@
           }
         ],
         "text": "Clima en Manizales"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "location",
+            "value": "Pereira",
+            "start": 9
+          }
+        ],
+        "text": "Clima en Pereira"
       }
     ],
-    "lookup_tables": [],
     "regex_features": [],
     "entity_synonyms": []
   }

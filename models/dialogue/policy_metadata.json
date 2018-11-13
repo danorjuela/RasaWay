@@ -1,6 +1,22 @@
 {
+  "python": "3.5.3",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "rasa_core": "0.11.12",
+  "max_histories": [
+    5,
+    5
+  ],
   "action_fingerprints": {
     "action_listen": {
+      "slots": [
+        "location"
+      ]
+    },
+    "action_weather": {
       "slots": [
         "location"
       ]
@@ -8,16 +24,5 @@
     "utter_goodbye": {
       "slots": []
     }
-  },
-  "rasa_core": "0.11.12",
-  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
-  "policy_names": [
-    "rasa_core.policies.memoization.MemoizationPolicy",
-    "rasa_core.policies.keras_policy.KerasPolicy"
-  ],
-  "python": "3.5.3",
-  "max_histories": [
-    5,
-    5
-  ]
+  }
 }

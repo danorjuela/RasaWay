@@ -12,9 +12,9 @@ entities:
 intents:
 - greet:
     use_entities: true
-- goodbye:
-    use_entities: true
 - inform:
+    use_entities: true
+- goodbye:
     use_entities: true
 slots:
   location:
