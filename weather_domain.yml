@@ -14,16 +14,18 @@ entities:
 
 templates:
   utter_greet:
-    - 'Hola! puedo ayudarte a saber el clima?'
+    - 'Hola! puedo ayudarte a saber el clima en algun lugar?'
   utter_goodbye:
     - 'hablame luego.'
     - 'chao :('
   utter_ask_location:
     - '¿En que lugar quiere saber el clima en estos momentos?'
+  utter_default:
+    - 'creo que no te entiendo, preguntame del clima en un lugar'
 
 actions:
  - action_weather
  - utter_greet
  - utter_goodbye
  - utter_ask_location
-
+ - utter_default

@@ -11,7 +11,7 @@ class ActionWeather(Action):
 		
 	def run(self, dispatcher, tracker, domain):
 		from apixu.client import ApixuClient
-		api_key = 'b01ca5f9b4b24c339a5100234182510' #your apixu key
+		api_key = '---' #your apixu key
 		client = ApixuClient(api_key)
 		
 		try:
@@ -27,10 +27,10 @@ class ActionWeather(Action):
 
 			response = """Actualmente en {}. La temperatura es {} grados, La humedad  {}% y la velocidad del viento es {} mph.""".format( city, temperature_c, humidity, wind_mph)
 		except :
-			response = "no pude encontrar esa localizacion, me la repites"
+			response = "No pude encontrar esa localizacion, me la repites"
 
 		dispatcher.utter_message(response)
-		return [SlotSet('location',loc)]
+
 
 
 
