@@ -10,11 +10,11 @@ config:
 entities:
 - location
 intents:
+- goodbye:
+    use_entities: true
 - greet:
     use_entities: true
 - inform:
-    use_entities: true
-- goodbye:
     use_entities: true
 slots:
   location:
@@ -22,9 +22,9 @@ slots:
     type: rasa_core.slots.TextSlot
 templates:
   utter_ask_location:
-  - text: Cual es la localizacion?
+  - text: ¿En que lugar quiere saber el clima en estos momentos?
   utter_goodbye:
   - text: hablame luego.
   - text: chao :(
   utter_greet:
-  - text: Hola! como puedo ayudarte?
+  - text: Hola! puedo ayudarte a saber el clima?

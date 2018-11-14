@@ -1,333 +1,441 @@
 {
   "rasa_nlu_data": {
-    "lookup_tables": [],
+    "regex_features": [],
+    "entity_synonyms": [],
     "common_examples": [
       {
-        "intent": "greet",
-        "text": "hola"
+        "text": "hola",
+        "intent": "greet"
       },
       {
-        "intent": "greet",
-        "text": "/start"
+        "text": "/start",
+        "intent": "greet"
       },
       {
-        "intent": "goodbye",
-        "text": "adios"
+        "text": "adios",
+        "intent": "goodbye"
       },
       {
-        "intent": "inform",
+        "text": "cual es el clima en Berlin?",
         "entities": [
           {
-            "end": 26,
-            "entity": "location",
             "value": "Berlin",
-            "start": 20
+            "start": 20,
+            "entity": "location",
+            "end": 26
           }
         ],
-        "text": "cual es el clima en Berlin?"
+        "intent": "inform"
       },
       {
-        "intent": "greet",
-        "text": "hey"
+        "text": "hey",
+        "intent": "greet"
       },
       {
-        "intent": "greet",
-        "text": "hola"
+        "text": "hola",
+        "intent": "greet"
       },
       {
-        "intent": "greet",
-        "text": "buenas"
+        "text": "buenas",
+        "intent": "greet"
       },
       {
-        "intent": "greet",
-        "text": "buen dia"
+        "text": "buen dia",
+        "intent": "greet"
       },
       {
-        "intent": "greet",
-        "text": "buenos dias"
+        "text": "buenos dias",
+        "intent": "greet"
       },
       {
-        "intent": "greet",
-        "text": "buenas tardes"
+        "text": "buenas tardes",
+        "intent": "greet"
       },
       {
-        "intent": "greet",
-        "text": "buenas noches"
+        "text": "buenas noches",
+        "intent": "greet"
       },
       {
-        "intent": "goodbye",
-        "text": "adios"
+        "text": "adios",
+        "intent": "goodbye"
       },
       {
-        "intent": "goodbye",
-        "text": "chao"
+        "text": "chao",
+        "intent": "goodbye"
       },
       {
-        "intent": "goodbye",
-        "text": "suerte"
+        "text": "suerte",
+        "intent": "goodbye"
       },
       {
-        "intent": "goodbye",
-        "text": "nos vemos"
+        "text": "nos vemos",
+        "intent": "goodbye"
       },
       {
-        "intent": "goodbye",
-        "text": "nos vemos luego"
+        "text": "nos vemos luego",
+        "intent": "goodbye"
       },
       {
-        "intent": "inform",
-        "text": "Cual es el clima de hoy?"
+        "text": "Cual es el clima de hoy?",
+        "intent": "inform"
       },
       {
-        "intent": "inform",
+        "text": "cual es el clima en Londres?",
         "entities": [
           {
-            "end": 26,
-            "entity": "location",
             "value": "Londres",
-            "start": 19
+            "start": 19,
+            "entity": "location",
+            "end": 26
           }
         ],
-        "text": "cual es el clima en Londres?"
+        "intent": "inform"
       },
       {
-        "intent": "inform",
+        "text": "muestrame el clima en Paris",
         "entities": [
           {
-            "end": 26,
-            "entity": "location",
             "value": "Paris",
-            "start": 21
+            "start": 21,
+            "entity": "location",
+            "end": 26
           }
         ],
-        "text": "muestrame el clima en Paris"
+        "intent": "inform"
       },
       {
-        "intent": "inform",
+        "text": "quisiera saber cual es el clima en Vilna?",
         "entities": [
           {
-            "end": 40,
-            "entity": "location",
             "value": "Vilna",
-            "start": 35
+            "start": 35,
+            "entity": "location",
+            "end": 40
           }
         ],
-        "text": "quisiera saber cual es el clima en Vilna?"
+        "intent": "inform"
       },
       {
-        "intent": "inform",
-        "text": "Cual es el clima?"
+        "text": "Cual es el clima?",
+        "intent": "inform"
       },
       {
-        "intent": "inform",
-        "text": "hablame del clima"
+        "text": "hablame del clima",
+        "intent": "inform"
       },
       {
-        "intent": "inform",
+        "text": "Hoy hace buen tiempo en Barcelona?",
         "entities": [
           {
-            "end": 33,
-            "entity": "location",
             "value": "Barcelona",
-            "start": 24
+            "start": 24,
+            "entity": "location",
+            "end": 33
           }
         ],
-        "text": "Hoy hace buen tiempo en Barcelona?"
+        "intent": "inform"
       },
       {
-        "intent": "inform",
+        "text": "Voy de viaje a Londres y quiero saber que clima hace?",
         "entities": [
           {
-            "end": 22,
-            "entity": "location",
             "value": "Londres",
-            "start": 15
+            "start": 15,
+            "entity": "location",
+            "end": 22
           }
         ],
-        "text": "Voy de viaje a Londres y quiero saber que clima hace?"
+        "intent": "inform"
       },
       {
-        "intent": "inform",
+        "text": "Estoy planeando mi viaje a Amsterdam. ¿Qué clima hace?",
         "entities": [
           {
-            "end": 35,
-            "entity": "location",
             "value": "Amsterdam",
-            "start": 27
+            "start": 27,
+            "entity": "location",
+            "end": 35
           }
         ],
-        "text": "Estoy planeando mi viaje a Amsterdam. ¿Qué clima hace?"
+        "intent": "inform"
       },
       {
-        "intent": "inform",
+        "text": "Muestrema el clima en Dublin, por favor",
         "entities": [
           {
-            "end": 28,
-            "entity": "location",
             "value": "Dublin",
-            "start": 22
+            "start": 22,
+            "entity": "location",
+            "end": 28
           }
         ],
-        "text": "Muestrema el clima en Dublin, por favor"
+        "intent": "inform"
       },
       {
-        "intent": "inform",
+        "text": "en Londres",
         "entities": [
           {
-            "end": 10,
-            "entity": "location",
             "value": "Londres",
-            "start": 3
+            "start": 3,
+            "entity": "location",
+            "end": 10
           }
         ],
-        "text": "en Londres"
+        "intent": "inform"
       },
       {
-        "intent": "inform",
+        "text": "es Lima",
         "entities": [
           {
-            "end": 7,
-            "entity": "location",
             "value": "Lima",
-            "start": 3
+            "start": 3,
+            "entity": "location",
+            "end": 7
           }
         ],
-        "text": "es Lima"
+        "intent": "inform"
       },
       {
-        "intent": "inform",
+        "text": "es Paris",
         "entities": [
           {
-            "end": 8,
-            "entity": "location",
             "value": "Paris",
-            "start": 3
+            "start": 3,
+            "entity": "location",
+            "end": 8
           }
         ],
-        "text": "es Paris"
+        "intent": "inform"
       },
       {
-        "intent": "inform",
+        "text": "en Buenos Aires",
         "entities": [
           {
-            "end": 9,
+            "value": "Buenos Aires",
+            "start": 3,
             "entity": "location",
-            "value": "Lithuania",
-            "start": 0
+            "end": 15
           }
         ],
-        "text": "Lithuania"
+        "intent": "inform"
       },
       {
-        "intent": "inform",
+        "text": "Buenos Aires",
         "entities": [
           {
-            "end": 9,
+            "value": "Buenos Aires",
+            "start": 0,
             "entity": "location",
-            "value": "bogota",
-            "start": 3
+            "end": 12
           }
         ],
-        "text": "es bogota"
+        "intent": "inform"
       },
       {
-        "intent": "inform",
+        "text": "Paris",
         "entities": [
           {
-            "end": 9,
+            "value": "Paris",
+            "start": 0,
             "entity": "location",
-            "value": "Madrid",
-            "start": 3
+            "end": 5
           }
         ],
-        "text": "es Madrid"
+        "intent": "inform"
       },
       {
-        "intent": "inform",
+        "text": "Manizales",
         "entities": [
           {
-            "end": 22,
-            "entity": "location",
-            "value": "Italia",
-            "start": 16
-          }
-        ],
-        "text": "lo siento es en Italia"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "end": 26,
-            "entity": "location",
-            "value": "Vilna",
-            "start": 21
-          }
-        ],
-        "text": "Hablame del clima en Vilna"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "end": 30,
-            "entity": "location",
-            "value": "Italia",
-            "start": 24
-          }
-        ],
-        "text": "El estado del tiempo en Italia"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "end": 14,
-            "entity": "location",
-            "value": "Pasto",
-            "start": 9
-          }
-        ],
-        "text": "Clima en Pasto"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "end": 16,
-            "entity": "location",
-            "value": "Aguadas",
-            "start": 9
-          }
-        ],
-        "text": "Clima en Aguadas"
-      },
-      {
-        "intent": "inform",
-        "entities": [
-          {
-            "end": 18,
-            "entity": "location",
             "value": "Manizales",
-            "start": 9
+            "start": 0,
+            "entity": "location",
+            "end": 9
           }
         ],
-        "text": "Clima en Manizales"
+        "intent": "inform"
       },
       {
-        "intent": "inform",
+        "text": "Pereira",
         "entities": [
           {
-            "end": 16,
-            "entity": "location",
             "value": "Pereira",
-            "start": 9
+            "start": 0,
+            "entity": "location",
+            "end": 7
           }
         ],
-        "text": "Clima en Pereira"
+        "intent": "inform"
+      },
+      {
+        "text": "Cucuta",
+        "entities": [
+          {
+            "value": "Cucuta",
+            "start": 0,
+            "entity": "location",
+            "end": 6
+          }
+        ],
+        "intent": "inform"
+      },
+      {
+        "text": "La paz",
+        "entities": [
+          {
+            "value": "La Paz",
+            "start": 0,
+            "entity": "location",
+            "end": 6
+          }
+        ],
+        "intent": "inform"
+      },
+      {
+        "text": "Santa Cruz",
+        "entities": [
+          {
+            "value": "Santa Cruz",
+            "start": 0,
+            "entity": "location",
+            "end": 10
+          }
+        ],
+        "intent": "inform"
+      },
+      {
+        "text": "Rio de Janeiro",
+        "entities": [
+          {
+            "value": "Rio de Janeiro",
+            "start": 0,
+            "entity": "location",
+            "end": 14
+          }
+        ],
+        "intent": "inform"
+      },
+      {
+        "text": "Lithuania",
+        "entities": [
+          {
+            "value": "Lithuania",
+            "start": 0,
+            "entity": "location",
+            "end": 9
+          }
+        ],
+        "intent": "inform"
+      },
+      {
+        "text": "es bogota",
+        "entities": [
+          {
+            "value": "bogota",
+            "start": 3,
+            "entity": "location",
+            "end": 9
+          }
+        ],
+        "intent": "inform"
+      },
+      {
+        "text": "es Madrid",
+        "entities": [
+          {
+            "value": "Madrid",
+            "start": 3,
+            "entity": "location",
+            "end": 9
+          }
+        ],
+        "intent": "inform"
+      },
+      {
+        "text": "lo siento es en Italia",
+        "entities": [
+          {
+            "value": "Italia",
+            "start": 16,
+            "entity": "location",
+            "end": 22
+          }
+        ],
+        "intent": "inform"
+      },
+      {
+        "text": "Hablame del clima en Vilna",
+        "entities": [
+          {
+            "value": "Vilna",
+            "start": 21,
+            "entity": "location",
+            "end": 26
+          }
+        ],
+        "intent": "inform"
+      },
+      {
+        "text": "El estado del tiempo en Italia",
+        "entities": [
+          {
+            "value": "Italia",
+            "start": 24,
+            "entity": "location",
+            "end": 30
+          }
+        ],
+        "intent": "inform"
+      },
+      {
+        "text": "Clima en Pasto",
+        "entities": [
+          {
+            "value": "Pasto",
+            "start": 9,
+            "entity": "location",
+            "end": 14
+          }
+        ],
+        "intent": "inform"
+      },
+      {
+        "text": "Clima en Aguadas",
+        "entities": [
+          {
+            "value": "Aguadas",
+            "start": 9,
+            "entity": "location",
+            "end": 16
+          }
+        ],
+        "intent": "inform"
+      },
+      {
+        "text": "Clima en Manizales",
+        "entities": [
+          {
+            "value": "Manizales",
+            "start": 9,
+            "entity": "location",
+            "end": 18
+          }
+        ],
+        "intent": "inform"
+      },
+      {
+        "text": "Clima en Pereira",
+        "entities": [
+          {
+            "value": "Pereira",
+            "start": 9,
+            "entity": "location",
+            "end": 16
+          }
+        ],
+        "intent": "inform"
       }
     ],
-    "regex_features": [],
-    "entity_synonyms": []
+    "lookup_tables": []
   }
 }

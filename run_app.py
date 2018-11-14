@@ -18,15 +18,9 @@ input_channel = TelegramInput(
         # this is your bots username
         verify="RasalinaBot",
         # the url your bot should listen for messages
-        webhook_url="matabares.ngrok.io/webhooks/telegram/webhook")
+        webhook_url=" mydomain /webhooks/telegram/webhook")
 
 
-#input_channel = SlackInput('xoxp-447570327334-446111098707-448087355143-7816d5215f0fe387a47288e29b57dc1d', #app verification token
-#							'xoxb-447570327334-448087356887-JcwRgqNVA40tVUYEIVREbq1n', # bot verification token
-#							'jHoAxJLk1eWUrdza6QoTvARJ', # slack verification token
-#							True)
-
-# set serve_forever=False if you want to keep the server running
 
 
 agent.handle_channels([input_channel], 5004, serve_forever=True,)

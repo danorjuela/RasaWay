@@ -180,4 +180,3 @@
 * inform[location=Leticia]
    - slot{"location": "Leticia"}
    - action_weather
-
