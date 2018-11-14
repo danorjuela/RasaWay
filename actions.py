@@ -14,18 +14,21 @@ class ActionWeather(Action):
 		api_key = 'b01ca5f9b4b24c339a5100234182510' #your apixu key
 		client = ApixuClient(api_key)
 		
-		loc = tracker.get_slot('location')
-		current = client.getCurrentWeather(q=loc)
-		
-		country = current['location']['country']
-		city = current['location']['name']
-		condition = current['current']['condition']['text']
-		temperature_c = current['current']['temp_c']
-		humidity = current['current']['humidity']
-		wind_mph = current['current']['wind_mph']
+		try:
+			loc = tracker.get_slot('location')
+			current = client.getCurrentWeather(q=loc)
+			
+			country = current['location']['country']
+			city = current['location']['name']
+			condition = current['current']['condition']['text']
+			temperature_c = current['current']['temp_c']
+			humidity = current['current']['humidity']
+			wind_mph = current['current']['wind_mph']
 
-		response = """Actualmente en {}. La temperatura es {} grados, La humedad  {}% y la velocidad del viento es {} mph.""".format( city, temperature_c, humidity, wind_mph)
-						
+			response = """Actualmente en {}. La temperatura es {} grados, La humedad  {}% y la velocidad del viento es {} mph.""".format( city, temperature_c, humidity, wind_mph)
+		except :
+			response = "no pude encontrar esa localizacion, me la repites"
+
 		dispatcher.utter_message(response)
 		return [SlotSet('location',loc)]
 
