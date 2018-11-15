@@ -7,7 +7,7 @@
         "entities": []
       },
       {
-        "text": "/start",
+        "text": "hola de nuevo",
         "intent": "greet",
         "entities": []
       },
@@ -79,6 +79,17 @@
         "entities": []
       },
       {
+        "text": "Que bien Gracias",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Gracias",
+        "intent": "goodbye",
+        "entities": []
+      },
+      
+      {
         "text": "nos vemos",
         "intent": "goodbye",
         "entities": []
@@ -113,6 +124,114 @@
             "start": 21,
             "end": 26,
             "value": "Paris",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "quiero saber el clima en Paris, y no el Medellin",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "Paris",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "quiero saber el clima en Paris, A no, el Medellin",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "Medellin",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "quiero saber el clima en Paris, y no el Pasto",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "Paris",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "quiero saber el clima en Paris, A no, el Cali",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "Cali",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "el clima en Lima no el de Medellin",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "Lima",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "quiero saber el clima en Paris, A no, en Lima",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 42,
+            "end": 46,
+            "value": "Lima",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "en ibague y no en lima",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "ibague",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "ibague y no en lima",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "ibague",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "No en lima pero si Cali",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 6,
+            "end": 10,
+            "value": "Cali",
             "entity": "location"
           }
         ]
