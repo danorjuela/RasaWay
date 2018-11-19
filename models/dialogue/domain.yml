@@ -5,16 +5,19 @@ actions:
 - utter_greet
 - utter_goodbye
 - utter_ask_location
+- utter_fallback
 config:
   store_entities_as_slots: true
 entities:
 - location
 intents:
-- goodbye:
-    use_entities: true
 - greet:
     use_entities: true
 - inform:
+    use_entities: true
+- intent_start:
+    use_entities: true
+- goodbye:
     use_entities: true
 slots:
   location:
@@ -23,8 +26,9 @@ slots:
 templates:
   utter_ask_location:
   - text: ¿En que lugar quiere saber el clima en estos momentos?
+  utter_fallback:
+  - text: preguntame del clima en un lugar, seguro puedo ayudarte
   utter_goodbye:
-  - text: hablame luego.
-  - text: chao :(
+  - text: un gusto ayudarte, saludame luego
   utter_greet:
-  - text: Hola! puedo ayudarte a saber el clima?
+  - text: Hola! Soy Rasalina, ¿En que lugar te gustaria Saber el clima?

@@ -1,0 +1,75 @@
+## intent:greet
+- hola
+- hola de nuevo
+- hey
+- buenas
+- buen dia
+- buenos dias
+- buenas tardes
+- buenas noches
+
+## intent:goodbye
+- adios
+- chao
+- suerte
+- Que bien Gracias
+- gracias
+- nos vemos
+- nos vemos luego
+
+## intent:inform
+- cual es el clima en [Berlin](location)?
+- Cual es el clima de hoy?
+- cual es el clima en [Londres](location)?
+- muestrame el clima en [Paris](location)
+- quiero saber el clima en [Paris](location), y no el de Medellin
+- quiero saber el clima en Paris, A no, el [Medellin](location)
+- quiero saber el clima en [Paris](location), y no el de Pasto
+- quiero saber el clima en Paris, A no, el [Cali](location)
+- el clima en [Lima](location) no el de Medellin
+- quiero saber el clima en [Paris](location), A no, en Lima
+- en [ibague](location) y no en lima
+- [ibague](location) y no en Cucuta
+- en [ibague](location) no en lima
+- [ibague](location) no en Londres
+- No en lima pero si [Cali](location)
+- quisiera saber cual es el clima en [Vilna](location)?
+- Cual es el clima?
+- hablame del clima
+- Hoy hace buen tiempo en [Barcelona](location)?
+- Voy de viaje a [Londres](location) y quiero saber que clima hace?
+- Estoy planeando mi viaje a [Amsterdam](location). ¿Qué clima hace?
+- Muestrema el clima en [Dublin](location), por favor
+- en [Londres](location)
+- es [Lima](location)
+- es [Paris](location)
+- en [Buenos Aires](location)
+- [Buenos Aires](location)
+- [La paz](location)
+- [Paris](location)
+- [Manizales](location)
+- [Pereira](location)
+- [Cucuta](location)
+- [Santa Cruz](location)
+- [Rio de Janeiro](location)
+- [Lithuania](location)
+- es [bogota](location)
+- es [Madrid](location)
+- lo siento es en [Italia](location)
+- Hablame del clima en [Vilna](location)
+- El estado del tiempo en [Italia](location)
+- Clima en [Pasto](location)
+- Clima en [Aguadas](location)
+- Clima en [Manizales](location)
+- Clima en [Pereira](location)
+- Clima en [Sao Paulo](location)
+- en [Sao Paulo](location)
+- [São Paulo](location)
+- el de [Medellin](location)
+- el de [medellin](location)
+- Clima en [São Paulo](location)
+- el de [Pasto](location)
+- el de [bogota](location)
+- el de [Pereira](location)
+- es [Girardot](location)
+

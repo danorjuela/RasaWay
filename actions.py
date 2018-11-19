@@ -11,13 +11,14 @@ class ActionWeather(Action):
 		
 	def run(self, dispatcher, tracker, domain):
 		from apixu.client import ApixuClient
-		api_key = '---' #your apixu key
+		api_key = '----' #your apixu key
 		client = ApixuClient(api_key)
-		
+
+		loc = tracker.get_slot('location')
+		print (loc)
+
 		try:
-			loc = tracker.get_slot('location')
 			current = client.getCurrentWeather(q=loc)
-			
 			country = current['location']['country']
 			city = current['location']['name']
 			condition = current['current']['condition']['text']
@@ -26,11 +27,11 @@ class ActionWeather(Action):
 			wind_mph = current['current']['wind_mph']
 
 			response = """Actualmente en {}. La temperatura es {} grados, La humedad  {}% y la velocidad del viento es {} mph.""".format( city, temperature_c, humidity, wind_mph)
-		except :
-			response = "No pude encontrar esa localizacion, me la repites"
+		except:
+			response = "no pude encontrar esa localizacion, podrias revisar la escritura"
 
 		dispatcher.utter_message(response)
-
+		return [SlotSet('location',None)]
 
 
 

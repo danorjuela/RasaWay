@@ -1,3 +1,23 @@
+## Generated Story 2679912692430620762
+* intent_star
+    - utter_greet
+* greet
+    - utter_greet
+* inform{"location": "bogota"}
+    - slot{"location": "bogota"}
+    - action_weather
+* goodbye
+    - utter_goodbye
+## Generated Story 2679912692432620762
+* greet
+    - utter_greet
+* greet
+    - utter_greet
+* inform{"location": "bogota"}
+    - slot{"location": "bogota"}
+    - action_weather
+* goodbye
+    - utter_goodbye
 ## Generated Story -4441191691837717460
 * greet
     - utter_greet
@@ -180,3 +200,6 @@
 * inform[location=Leticia]
    - slot{"location": "Leticia"}
    - action_weather
+## fallback story
+* out_of_scope
+  - action_default_fallback
