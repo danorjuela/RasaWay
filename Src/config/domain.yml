@@ -1,0 +1,34 @@
+slots:
+  location:
+    type: text
+
+
+intents:
+ - greet
+ - goodbye
+ - inform
+ - intent_start
+
+entities:
+ - location
+
+templates:
+  utter_greet:
+    - 'Hola! Soy Rasalina, ¿En que lugar te gustaria Saber el clima?'
+  utter_goodbye:
+    - 'un gusto ayudarte, saludame luego'
+    - "siempre es un placer servirte"
+  utter_ask_location:
+    - '¿Indicame el lugar quiere saber el clima en estos momentos?'
+  utter_fallback:
+    - 'preguntame del clima en un lugar, seguro puedo ayudarte'
+  utter_greetcorrecion:
+    - 'Disculpeme, Hola! de nuevo , soy Rasalina '
+
+actions:
+ - action_weather
+ - utter_greet
+ - utter_greetcorrecion
+ - utter_goodbye
+ - utter_ask_location
+ - utter_fallback

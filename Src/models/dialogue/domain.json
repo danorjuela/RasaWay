@@ -1,0 +1,19 @@
+{
+  "states": [
+    "intent_goodbye",
+    "intent_greet",
+    "intent_inform",
+    "intent_intent_start",
+    "entity_location",
+    "slot_location_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_action_weather",
+    "prev_utter_greet",
+    "prev_utter_greetcorrecion",
+    "prev_utter_goodbye",
+    "prev_utter_ask_location",
+    "prev_utter_fallback"
+  ]
+}
