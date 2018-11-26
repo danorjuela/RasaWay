@@ -40,8 +40,23 @@
 - ok 
 
 ## intent:inform
-- cual es el clima en [Berlin](location)?
+- que clima tenemos
+- que clima tenemos?
+- me dices el clima 
+- me dices el clima?
+- me aclaras el clima 
+- me cuentas el clima 
+- que clima tiempo
+- que clima tiempo?
+- me dices el tiempo
+- me dices el tiempo?
+- me aclaras el tiempo 
+- me cuentas el tiempo
+- cuenta tus funcion 
 - Cual es el clima de hoy?
+- Cual es el clima?
+- hablame del clima
+- cual es el clima en [Berlin](location)?
 - cual es el clima en [Londres](location)?
 - cual es el clima en [Santa Cruz](location)?
 - muestrame el clima en [Paris](location)
@@ -64,8 +79,10 @@
 - No en lima pero si [Cali](location)
 - quisiera saber cual es el clima en [Vilna](location)?
 - quisiera saber cual es el clima en [Santa Cruz](location)?
-- Cual es el clima?
-- hablame del clima
+- En [quito](location) como esta el clima?
+- En [quito](location) como esta el clima
+- En [Pereira](location) como esta el clima?
+- En [Pereira](location) como esta el clima
 - dimelo en [Santiago de chile](location)
 - dimelo en [Armenia](location)
 - clima en [salamanca](location)
@@ -85,15 +102,6 @@
 - en [Buenos Aires](location)
 - [Buenos Aires](location)
 - quiero el clima de [Manizales](location) no el de Pereira
-- [La paz](location)
-- [Paris](location)
-- [Manizales](location)
-- [Pereira](location)
-- [Cucuta](location)
-- [Santa Cruz](location)
-- [Rio de Janeiro](location)
-- [Sidney](location)
-- [Lithuania](location)
 - es [bogota](location)
 - es [Madrid](location)
 - lo siento es en [Italia](location)
@@ -114,31 +122,40 @@
 - el de [Pereira](location)
 - es [Girardot](location)
 - el clima en [Libano](location)
-- [New York](location)
-- [Sao Paulo](location)
-- [MEXICO CITY](location)
-- [Los Angeles](location)
-- [BUENOS AIRES](location)
-- [Rio de](location)
-- [HONG KONG](location)
-- [Ho Chi](location)
-- [KUALA LUMPUR](location)
-- [San Francisco](location)
-- [Belo Horizonte](location)
-- [Saint Petersburg](location)
-- [Yangon ](location)
-- [Porto Alegre](location)
+- En [New York](location) cual es el tiempo?
+- En [Sao Paulo](location) cual es el tiempo
+- [MEXICO CITY](location) que tiempo tiene
+- [Los Angeles](location) que tiempo tiene?
+- [BUENOS AIRES](location) que tiempo Posee
+- [Rio de Janeiro](location) que tiempo Posee=
+- esta lloviendo en [HONG KONG](location)?
+- esta haciendo sol en [Ho Chi](location)? 
+- esta llociendo en [KUALA LUMPUR](location)
+- esta haciendo sol en [San Francisco](location)
+- [Belo Horizonte](location) tiene buen clima 
+- [Saint Petersburg](location) tiene buen clima?
+- [Yangon ](location) tiene buen tiempo?
+- [Porto Alegre](location) tiene buen Clima?
+- vieja que clima hacen[San Diego](location)
+- el tiempo en [La paz](location)
+- el tiempo en [Paris](location)?
+- que clima hace en [Manizales](location)
+- [Pereira](location) que clima presenta 
+- [Cucuta](location) que clima presenta?
+- dime tambien el clima [Santa Cruz](location) 
+- [Rio de Janeiro](location) esta de playa?
+- [Sidney](location) esta lluvioso?
+- [Lithuania](location) tiene nubes?
+- clima en [San Juan](location) hoy?
+- clima en [Frankfurt am](location) hoy
+- pronostico en [Birmingham[] ](location)
+- [SANTO DOMINGO](location)
+- [St. Louis](location)
+- [Dar es](location)
 - [Hà Noi](location)
 - [ADDIS ABABA](location)
 - [CAPE TOWN](location)
-- [San Diego](location)
-- [Dar es](location)
 - [Tel Aviv-Yafo](location)
-- [San Juan](location)
-- [Frankfurt am](location)
-- [Birmingham[] ](location)
-- [SANTO DOMINGO](location)
-- [St. Louis](location)
 - [West Midlands](location)
 - [Quezon City](location)
 - [Puebla de](location)
@@ -921,7 +938,7 @@
 - [Taizhou ](location)
 - [Zhejiang](location)
 - [Luoyang](location)
-- [QUITO](location)
+- [Quito](location)
 - [Jinjiang](location)
 - [Mopti](location)
 - [Perth](location)
