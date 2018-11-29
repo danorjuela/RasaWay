@@ -1,34 +1,102 @@
 slots:
-  location:
+  Tipo:
     type: text
-
+  Tamaño:
+    type: categorical
+    values:
+      - 15
+      - 30 
+  Pan:
+    type: categorical
+      values:
+      - Avena
+      - Oregano 
+      - Integral
+      - Blanco
+  Coccion:
+    type: categorical
+    values:
+      - Frio
+      - Caliente
+      - Totado
+  queso:
+    type: categorical
+    values:
+      - Americano
+      - Provolone
+  quesoAdicional:
+    type: bool
+  quesoAdicionalTipo:
+    type: categorical
+    values:
+      - Americano
+      - Provolone
 
 intents:
  - greet
  - goodbye
- - inform
- - intent_start
+ - informacion
+ - pedidoTipo
+ - pedidoTamaño
+ - pedidoPan
+ - pedidoCoccion
+ - pedidoQueso
+ - afirmacion
+ - negaciom
 
-entities:
+ entities:
  - location
 
 templates:
   utter_greet:
-    - 'Hola! Soy Rasalina, ¿En que lugar te gustaria Saber el clima?'
+    - 'Bienvenido a Subway, puedo tomar su pedido?'
   utter_goodbye:
-    - 'un gusto ayudarte, saludame luego'
-    - "siempre es un placer servirte"
-  utter_ask_location:
-    - '¿Indicame el lugar quiere saber el clima en estos momentos?'
-  utter_fallback:
-    - 'preguntame del clima en un lugar, seguro puedo ayudarte'
-  utter_greetcorrecion:
-    - 'Disculpeme, Hola! de nuevo , soy Rasalina '
+    - 'hablame luego.'
+  utter_tamaño:
+    - text: '¿de que tamaño desea su sub?'
+    buttons:
+      - title: "15 Cm"
+        payload: '15'
+      - title: "30 Cm"
+        payload: '30'
+  utter_tipo:
+    - text: '¿Que tipo de Pan desea?'
+    buttons:
+      - title: "Avena"
+        payload: 'Avena'
+      - title: "Oregano"
+        payload: 'Oregano'
+      - title: "Integral"
+        payload: 'Integral'
+      - title: "Blanco"
+        payload: 'Blanco'
+  utter_coccion:
+    - text: '¿cual es la coccion que desea para su sub?'
+    buttons:
+      - title: "Frio"
+        payload: "Frio"
+      - title: "Caliente"
+        payload: "Caliente"
+      - title: "Tostado"
+        payload: "Tostado"
+  utter_adicion_queso:
+    - text: '¿quiere Agregar Queso?'
+    buttons:
+      - title: "Si"
+        payload: 'Si'
+      - title: "No"
+        payload: 'No'
+  utter_queso:
+    - text: '¿Que tipo de queso?'
+    buttons:
+      - title: "Americano"
+        payload: 'Americano'
+      - title: "Provolone"
+        payload: 'Provolone'
 
+      
 actions:
- - action_weather
  - utter_greet
- - utter_greetcorrecion
  - utter_goodbye
- - utter_ask_location
- - utter_fallback
+
+ 
