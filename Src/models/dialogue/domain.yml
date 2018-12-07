@@ -1,38 +1,174 @@
 %YAML 1.1
 ---
 actions:
-- action_weather
 - utter_greet
-- utter_greetcorrecion
 - utter_goodbye
-- utter_ask_location
+- utter_tamano
+- utter_tipo
+- utter_pan
+- utter_coccion
+- utter_adicion_queso
+- utter_queso
+- action_informacion_dia
+- action_informacion_sub
 - utter_fallback
 config:
   store_entities_as_slots: true
 entities:
-- location
+- tipo
+- tamano
+- pan
+- coccion
+- queso
+- adicion
+- vegetal
+- salsa
+- papas
+- galletas
 intents:
+- pedidoVegetales:
+    use_entities: true
+- pedidoPapas:
+    use_entities: true
 - goodbye:
+    use_entities: true
+- pedidoQueso:
+    use_entities: true
+- informacionDia:
+    use_entities: true
+- pedidoPan:
     use_entities: true
 - greet:
     use_entities: true
-- inform:
+- greet+pedidoTipo+pedidoTamano+pedidoPan:
     use_entities: true
-- intent_start:
+- pedidoTamano:
+    use_entities: true
+- estado:
+    use_entities: true
+- greet+pedidoTipo+pedidoTamano:
+    use_entities: true
+- greet+pedidoTipo:
+    use_entities: true
+- confirmacion:
+    use_entities: true
+- pedidoSalsas:
+    use_entities: true
+- pedidoGalletas:
+    use_entities: true
+- pedidoTipo:
+    use_entities: true
+- pedidoAdicionar:
+    use_entities: true
+- negacion:
     use_entities: true
 slots:
-  location:
+  Adicional1:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  Adicional2:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  Adicional3:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  AdicionalNum:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  coccion:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  pan:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  queso:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  quesoAdicional:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  tamano:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  tipo:
     initial_value: null
     type: rasa_core.slots.TextSlot
 templates:
-  utter_ask_location:
-  - text: ¿Indicame el lugar quiere saber el clima en estos momentos?
+  utter_adicion_queso:
+  - buttons:
+    - payload: agregale mas Americano
+      title: Americano
+    - payload: agregale mas Provolone
+      title: Provolone
+    - payload: no quiero queso Adicinal
+      title: No gracias
+    text: Desea queso Adicional
+  utter_coccion:
+  - buttons:
+    - payload: Caliente
+      title: Caliente
+    - payload: Tostado
+      title: Tostado
+    - payload: Frio
+      title: Frio
+    text: ¿Que coccion Deseas?
   utter_fallback:
-  - text: preguntame del clima en un lugar, seguro puedo ayudarte
+  - text: creo que no te entiendo, pero seguro puedo ayudarte con tu pedido
   utter_goodbye:
-  - text: un gusto ayudarte, saludame luego
-  - text: siempre es un placer servirte
+  - text: hablame luego.
   utter_greet:
-  - text: Hola! Soy Rasalina, ¿En que lugar te gustaria Saber el clima?
-  utter_greetcorrecion:
-  - text: 'Disculpeme, Hola! de nuevo , soy Rasalina '
+  - text: Bienvenido a Subway, puedo tomar su pedido?
+  utter_pan:
+  - buttons:
+    - payload: Avena
+      title: Avena
+    - payload: Oregano
+      title: Oregano
+    - payload: Integral
+      title: Integral
+    - payload: Blanco
+      title: Blanco
+    text: ¿Que tipo de Pan desea?
+  utter_queso:
+  - buttons:
+    - payload: Americano
+      title: Americano
+    - payload: Provolone
+      title: Provolone
+    text: ¿Que queso desea?
+  utter_tamano:
+  - buttons:
+    - payload: '15'
+      title: de 15 CM
+    - payload: '30'
+      title: de 30 CM
+    text: De que tamaño lo quiere
+  utter_tipo:
+  - buttons:
+    - payload: baratisimo
+      title: baratisimo
+    - payload: jamon
+      title: jamon
+    - payload: Pavo y jamon
+      title: Pavo y jamon
+    - payload: italianisimo
+      title: italianisimo
+    - payload: cerdo desmechado
+      title: cerdo desmechado
+    - payload: pelluga de pollo
+      title: pelluga de pollo
+    - payload: Italiano BTM
+      title: Italiano BTM
+    - payload: Costillas BBQ
+      title: Costillas BBQ
+    - payload: Atun
+      title: Atun
+    - payload: Pollo Teriyaky
+      title: Pollo Teriyaky
+    - payload: Melt
+      title: Melt
+    - payload: Club
+      title: Club
+    - payload: Roasts Beef
+      title: Roasts Beef
+    text: ¿Que Sub deseas?

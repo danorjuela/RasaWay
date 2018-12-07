@@ -1,66 +1,72 @@
 slots:
-  Tipo:
+  tipo:
     type: text
-  Tamaño:
-    type: categorical
-    values:
-      - 15
-      - 30 
-  Pan:
-    type: categorical
-      values:
-      - Avena
-      - Oregano 
-      - Integral
-      - Blanco
-  Coccion:
-    type: categorical
-    values:
-      - Frio
-      - Caliente
-      - Totado
+  tamano:
+    type: text
+  pan:
+    type: text
+  coccion:
+    type: text
   queso:
-    type: categorical
-    values:
-      - Americano
-      - Provolone
+    type: text
   quesoAdicional:
-    type: bool
-  quesoAdicionalTipo:
-    type: categorical
-    values:
-      - Americano
-      - Provolone
-
+    type: text
+  AdicionalNum:
+    type: text
+  Adicional1:
+    type: text
+  Adicional2:
+    type: text
+  Adicional3:
+    type: text
+  VegentalNum:
+    type: text
+  Vegental1:
+    type: text
+  Vegental2:
+    type: text
+  Vegental3:
+    type: text
+  
 intents:
  - greet
  - goodbye
- - informacion
+ - informacionDia
  - pedidoTipo
- - pedidoTamaño
+ - pedidoTamano
  - pedidoPan
- - pedidoCoccion
  - pedidoQueso
- - afirmacion
- - negaciom
+ - pedidoAdicionar
+ - pedidoVegetales
+ - pedidoSalsas
+ - pedidoPapas
+ - pedidoGalletas
+ - estado
+ - confirmacion
+ - negacion
+ - greet+pedidoTipo
+ - greet+pedidoTipo+pedidoTamano
+ - greet+pedidoTipo+pedidoTamano+pedidoPan
 
- entities:
- - location
+entities:
+ - tipo
+ - tamano
+ - pan
+ - coccion
+ - queso
+ - adicion
+ - vegetal
+ - salsa
+ - papas 
+ - galletas
 
 templates:
   utter_greet:
     - 'Bienvenido a Subway, puedo tomar su pedido?'
   utter_goodbye:
     - 'hablame luego.'
-  utter_tamaño:
-    - text: '¿de que tamaño desea su sub?'
-    buttons:
-      - title: "15 Cm"
-        payload: '15'
-      - title: "30 Cm"
-        payload: '30'
-  utter_tipo:
-    - text: '¿Que tipo de Pan desea?'
+  utter_pan:
+  - text: '¿Que tipo de Pan desea?'
     buttons:
       - title: "Avena"
         payload: 'Avena'
@@ -70,33 +76,87 @@ templates:
         payload: 'Integral'
       - title: "Blanco"
         payload: 'Blanco'
+  utter_tipo:
+  - text: '¿Que Sub deseas?'
+    buttons:
+      - title: "baratisimo"
+        payload: 'baratisimo'
+      - title: "jamon"
+        payload: 'jamon'
+      - title: "Pavo y jamon"
+        payload: 'Pavo y jamon'
+      - title: "italianisimo"
+        payload: 'italianisimo'
+      - title: "cerdo desmechado"
+        payload: 'cerdo desmechado'
+      - title: "pelluga de pollo"
+        payload: 'pelluga de pollo'
+      - title: "Italiano BTM"
+        payload: 'Italiano BTM'
+      - title: "Costillas BBQ"
+        payload: 'Costillas BBQ'
+      - title: "Atun"
+        payload: 'Atun'
+      - title: "Pollo Teriyaky"
+        payload: 'Pollo Teriyaky'
+      - title: "Melt"
+        payload: 'Melt'
+      - title: "Club"
+        payload: 'Club'
+      - title: "Roasts Beef"
+        payload: 'Roasts Beef'
   utter_coccion:
-    - text: '¿cual es la coccion que desea para su sub?'
+  - text: '¿Que coccion Deseas?'
     buttons:
-      - title: "Frio"
-        payload: "Frio"
       - title: "Caliente"
-        payload: "Caliente"
+        payload: 'Caliente'
       - title: "Tostado"
-        payload: "Tostado"
-  utter_adicion_queso:
-    - text: '¿quiere Agregar Queso?'
-    buttons:
-      - title: "Si"
-        payload: 'Si'
-      - title: "No"
-        payload: 'No'
+        payload: 'Tostado'
+      - title: "Frio"
+        payload: 'Frio'
   utter_queso:
-    - text: '¿Que tipo de queso?'
+  - text: '¿Que queso desea?'
     buttons:
       - title: "Americano"
         payload: 'Americano'
       - title: "Provolone"
         payload: 'Provolone'
+  utter_adicion_queso:
+  - text: 'Desea queso Adicional'
+    buttons:
+      - title: "Americano"
+        payload: 'agregale mas Americano'
+      - title: "Provolone"
+        payload: 'agregale mas Provolone'
+      - title: "No gracias"
+        payload: 'no quiero queso Adicinal'
+  utter_tamano:
+  - text: 'De que tamaño lo quiere'
+    buttons:
+    - title: "de 15 CM"
+      payload: '15'
+    - title: "de 30 CM"
+      payload: '30'
+  utter_fallback:
+    - 'creo que no te entiendo, pero seguro puedo ayudarte con tu pedido'
+  utter_menu:
+    - 'En subway encontraras un menu que te sorprendera , te podemos ofrecer \n sub baratisimo \n sub de jamon \n  sub de Pavo y jamon \n  sub italianisimo  \n  sub de cerdo desmechado  \n pelluga de pollo  \n Italiano BTM  \n sub de  Costillas BBQ  \n sub de Atun  \n sub de Pollo Teriyaky  \n  sub Melt  \n  sub Club  \n sub Roasts Beef'
 
-      
 actions:
  - utter_greet
  - utter_goodbye
+ - utter_tamano
+ - utter_tipo
+ - utter_pan
+ - utter_coccion
+ - utter_adicion_queso
+ - utter_queso
+ - utter_menu
+ - action_informacion_dia
+ - action_informacion_sub
+ - action_confirmar_sub
+ - action_vegetal_adicional
+ - action_salsa_adicional
+ - utter_fallback
 
  

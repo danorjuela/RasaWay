@@ -16,9 +16,9 @@ agent = Agent.load('./models/dialogue', interpreter = nlu_interpreter, action_en
 
 input_channel = TelegramInput(
         # you get this when setting up a bot
-        access_token="",
+        access_token="633716437:AAHU_6G6nyNjXDRpsnGTtPOfTyFy0F_GG9E",
         # this is your bots username
-        verify="RasalinaBot",
+        verify="rasawaybot",
         # the url your bot should listen for messages
         webhook_url="matabares.ngrok.io/webhooks/telegram/webhook")
 

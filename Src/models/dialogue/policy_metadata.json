@@ -4,36 +4,38 @@
     "rasa_core.policies.keras_policy.KerasPolicy",
     "rasa_core.policies.fallback.FallbackPolicy"
   ],
-  "action_fingerprints": {
-    "action_weather": {
-      "slots": [
-        "location"
-      ]
-    },
-    "action_default_fallback": {
-      "slots": []
-    },
-    "utter_greet": {
-      "slots": []
-    },
-    "utter_greetcorrecion": {
-      "slots": []
-    },
-    "action_listen": {
-      "slots": [
-        "location"
-      ]
-    },
-    "utter_goodbye": {
-      "slots": []
-    }
-  },
-  "rasa_core": "0.11.12",
   "python": "3.5.3",
   "max_histories": [
     5,
     5,
     null
   ],
+  "rasa_core": "0.11.12",
+  "action_fingerprints": {
+    "action_informacion_dia": {
+      "slots": []
+    },
+    "utter_greet": {
+      "slots": []
+    },
+    "action_informacion_sub": {
+      "slots": []
+    },
+    "utter_goodbye": {
+      "slots": []
+    },
+    "action_default_fallback": {
+      "slots": []
+    },
+    "action_listen": {
+      "slots": [
+        "queso",
+        "quesoAdicional",
+        "pan",
+        "tipo",
+        "tamano"
+      ]
+    }
+  },
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble"
 }

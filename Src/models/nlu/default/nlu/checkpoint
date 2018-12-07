@@ -1,2 +1,2 @@
-model_checkpoint_path: "/home/rasavm/trabajo/Rasalina/./models/nlu/default/nlu/intent_classifier_tensorflow_embedding.ckpt"
-all_model_checkpoint_paths: "/home/rasavm/trabajo/Rasalina/./models/nlu/default/nlu/intent_classifier_tensorflow_embedding.ckpt"
+model_checkpoint_path: "/home/rasavm/trabajo/subway/./models/nlu/default/nlu/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/home/rasavm/trabajo/subway/./models/nlu/default/nlu/intent_classifier_tensorflow_embedding.ckpt"

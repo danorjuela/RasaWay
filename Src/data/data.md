@@ -35,49 +35,79 @@
 - ok 
 
 ## intent:informacionDia
-- Cual es el sanduche de hoy
+- Claro, dime el sub del dia 
+- Cual es el sub de hoy
+- cual es el subway del dia 
+- cual es el menu del dia
 - Que hay para hoy
 - que sanduches hay 
 - que sanduche tiene
 - que me puede dar
 
+## intent:pedido
+- me das un subway
+- quiero un subway 
+- claro , dame un sub 
+- quiero un sub
+- claro
+- por supuesto
+- quero pedir
+- claro quiero pedir
+- claro
 
 ## intent:pedidoTipo
-- quiero un [baratisimo](pedidoTipo)
-- quiero uno de [jamon](pedidoTipo)
-- quiero uno de [Pavo y jamon](pedidoTipo)
-- quiero uno de [pechuga de pavo](pedidoTipo)
-- [pechuga de pavo](pedidoTipo)
-- quiero un [italianisimo](pedidoTipo)
-- quiero uno de [cerdo desmechado](pedidoTipo)
-- quiero uno de [pelluga de pollo](pedidoTipo)
-- quiero uno de [Italiano BTM](pedidoTipo)
-- quiero uno de [Costillas BBQ](pedidoTipo)
-- quiero uno de [Atun](pedidoTipo)
-- quiero uno de [Pollo Teriyaky](pedidoTipo)
-- quiero un [Melt](pedidoTipo)
-- quiero un [Club](pedidoTipo)
-- quiero un [Roasts Beef](pedidoTipo)
-- [baratisimo](pedidoTipo)
-- [jamon](pedidoTipo)
-- [Pavo y jamon](pedidoTipo)
-- [pechuga de pavo](pedidoTipo)
-- [italianisimo](pedidoTipo)
-- [cerdo desmechado](pedidoTipo)
-- [pelluga de pollo](pedidoTipo)
-- [Italiano BTM](pedidoTipo)
-- [Costillas BBQ](pedidoTipo)
-- [Atun](pedidoTipo)
-- [Pollo Teriyaky](pedidoTipo)
-- [Melt](pedidoTipo)
-- [Club](pedidoTipo)
-- [Roasts Beef](pedidoTipo)
+- quiero un [baratisimo](tipo)
+- quiero uno de [jamon](tipo)
+- quiero uno de [Pavo y jamon](tipo)
+- quiero uno de [pechuga de pavo](tipo)
+- [pechuga de pavo](tipo)
+- [carne](tipo)
+- quiero un [italianisimo](tipo)
+- quiero uno de [cerdo desmechado](tipo)
+- quiero uno de [cerdo BBQ](tipo)
+- quiero uno de [pelluga de pollo](tipo)
+- quiero uno de [Italiano BTM](tipo)
+- quiero uno de [Costillas BBQ](tipo)
+- quiero uno de [Atun](tipo)
+- quiero uno de [Pollo Teriyaky](tipo)
+- quiero un [Melt](tipo)
+- quiero un [Club](tipo)
+- quiero un [Roasts Beef](tipo)
+- [baratisimo](tipo)
+- [jamon](tipo)
+- [Pavo y jamon](tipo)
+- [pechuga de pavo](tipo)
+- [italianisimo](tipo)
+- [cerdo desmechado](tipo)
+- [pelluga de pollo](tipo)
+- [Italiano BTM](tipo)
+- [Costillas BBQ](tipo)
+- [Atun](tipo)
+- [Pollo Teriyaky](tipo)
+- [Melt](tipo)
+- [Club](tipo)
+- [Roasts Beef](tipo)
 
-## intent:pedidoTamaño
-- de [15](tamaño) cm
-- de [30](tamaño) cm
-- [15](tamaño)
-- [30](tamaño)
+
+## intent:pedidoTipoNegacion
+- No quiero el sub del dia
+- No quiero el suway del dia
+
+## intent:pedidoNegacion
+- No quiero ese sub
+- No quiero el sub
+- no, no quiero ese
+
+## intent:pedidoConfirmacion
+- Quiero ese sub
+- Lo quiero 
+- si, quiero ese Sub
+
+## intent:pedidoTamano
+- de [15](tamano) cm
+- de [30](tamano) cm
+- [15](tamano)
+- [30](tamano)
 
 ## intent:pedidoPan
 - [avena](pan)
@@ -89,19 +119,27 @@
 - con pan [oregano](pan)
 - con pan [integral](pan)
 
-## intent:pedidoPan
-- lo quiero [Caliete](Coccion)
-- lo quiero [frio](Coccion)
-- lo quiero [Tostado](Coccion)
-- [Caliete](Coccion)
-- [frio](Coccion)
-- [Tostado](Coccion)
+## intent:pedidoCoccion
+- lo quiero [Caliete](coccion)
+- lo quiero [frio](coccion)
+- lo quiero [Tostado](coccion)
+- [Caliete](coccion)
+- [frio](coccion)
+- [Tostado](coccion)
 
 ## intent:pedidoQueso
-- con [Americano](Queso) 
-- con [Provolone](Queso) 
-- [Americano](Queso) 
-- [Provolone](Queso) 
+- con [Americano](queso) 
+- con [Provolone](queso) 
+- [Americano](queso) 
+- [Provolone](queso) 
+
+## intent:pedidoQuesoAdional
+- agregale mas [Americano](quesoAdicional) 
+- agregale mas [Provolone](quesoAdicional) 
+
+## intent:pedidoQuesoAdionalNegacion
+- No quiero queso adicional 
+- No quiero mas queso
 
 ## intent:pedidoAdicionar
 - agregale mas [Americano](adicion) 
@@ -179,55 +217,55 @@
 
 
 ## intent:greet+pedidoTipo
-- hola quiero un [baratisimo](pedidoTipo)
-- hola de nuevo quiero uno de [jamon](pedidoTipo)
-- hey , quiero uno de [Pavo y jamon](pedidoTipo)
-- buenas, quiero uno de [pechuga de pavo](pedidoTipo)
-- buen dia,  dame uno [pechuga de pavo](pedidoTipo)
-- buenos dias, quiero un [italianisimo](pedidoTipo)
-- buenas tardes, quiero uno de [cerdo desmechado](pedidoTipo)
-- buenas noches, quiero uno de [pelluga de pollo](pedidoTipo)
-- Hola, quiero uno de [Italiano BTM](pedidoTipo)
-- Hola de nuevo, quiero uno de [Costillas BBQ](pedidoTipo)
-- Hey, quiero uno de [Atun](pedidoTipo)
-- Buenas, quiero uno de [Pollo Teriyaky](pedidoTipo)
-- Huen dia, quiero un [Melt](pedidoTipo)
-- Buenos diasquiero un [Club](pedidoTipo)
-- Buenas tardes, quiero un [Roasts Beef](pedidoTipo)
-- Buenas noches,  quiero un [baratisimo](pedidoTipo)
+- hola quiero un [baratisimo](tipo)
+- hola de nuevo quiero uno de [jamon](tipo)
+- hey , quiero uno de [Pavo y jamon](tipo)
+- buenas, quiero uno de [pechuga de pavo](tipo)
+- buen dia,  dame uno [pechuga de pavo](tipo)
+- buenos dias, quiero un [italianisimo](tipo)
+- buenas tardes, quiero uno de [cerdo desmechado](tipo)
+- buenas noches, quiero uno de [pelluga de pollo](tipo)
+- Hola, quiero uno de [Italiano BTM](tipo)
+- Hola de nuevo, quiero uno de [Costillas BBQ](tipo)
+- Hey, quiero uno de [Atun](tipo)
+- Buenas, quiero uno de [Pollo Teriyaky](tipo)
+- Huen dia, quiero un [Melt](tipo)
+- Buenos diasquiero un [Club](tipo)
+- Buenas tardes, quiero un [Roasts Beef](tipo)
+- Buenas noches,  quiero un [baratisimo](tipo)
 
-## intent:greet+pedidoTipo+pedidoTamaño
-- hola quiero un [baratisimo](pedidoTipo) de [15](tamaño) cm
-- hola de nuevo quiero uno de [jamon](pedidoTipo) de [30](tamaño) cm
-- hey , quiero uno de [Pavo y jamon](pedidoTipo) de [15](tamaño)
-- buenas, quiero uno de [pechuga de pavo](pedidoTipo) de [30](tamaño)
-- buen dia,  dame uno [pechuga de pavo](pedidoTipo) de [15](tamaño) cm
-- buenos dias, quiero un [italianisimo](pedidoTipo) de [30](tamaño) cm
-- buenas tardes, quiero uno de [cerdo desmechado](pedidoTipo) de [30](tamaño) cm
-- buenas noches, quiero uno de [pelluga de pollo](pedidoTipo) de [15](tamaño)
-- Hola, quiero uno de [Italiano BTM](pedidoTipo) de [30](tamaño) cm
-- Hola de nuevo, quiero uno de [Costillas BBQ](pedidoTipo)de [15](tamaño)
-- Hey, quiero uno de [Atun](pedidoTipo) de [30](tamaño)
-- Buenas, quiero uno de [Pollo Teriyaky](pedidoTipo) de [30](tamaño) cm
-- Huen dia, quiero un [Melt](pedidoTipo) de [30](tamaño) cm
-- Buenos diasquiero un [Club](pedidoTipo) de [30](tamaño) cm
-- Buenas tardes, quiero un [Roasts Beef](pedidoTipo) de [30](tamaño)
-- Buenas noches,  quiero un [baratisimo](pedidoTipo) de [30](tamaño) cm
+## intent:greet+pedidoTipo+pedidoTamano
+- hola quiero un [baratisimo](tipo) de [15](tamano) cm
+- hola de nuevo quiero uno de [jamon](tipo) de [30](tamano) cm
+- hey , quiero uno de [Pavo y jamon](tipo) de [15](tamano)
+- buenas, quiero uno de [pechuga de pavo](tipo) de [30](tamano)
+- buen dia,  dame uno [pechuga de pavo](tipo) de [15](tamano) cm
+- buenos dias, quiero un [italianisimo](tipo) de [30](tamano) cm
+- buenas tardes, quiero uno de [cerdo desmechado](tipo) de [30](tamano) cm
+- buenas noches, quiero uno de [pelluga de pollo](tipo) de [15](tamano)
+- Hola, quiero uno de [Italiano BTM](tipo) de [30](tamano) cm
+- Hola de nuevo, quiero uno de [Costillas BBQ](tipo)de [15](tamano)
+- Hey, quiero uno de [Atun](tipo) de [30](tamano)
+- Buenas, quiero uno de [Pollo Teriyaky](tipo) de [30](tamano) cm
+- Huen dia, quiero un [Melt](tipo) de [30](tamano) cm
+- Buenos diasquiero un [Club](tipo) de [30](tamano) cm
+- Buenas tardes, quiero un [Roasts Beef](tipo) de [30](tamano)
+- Buenas noches,  quiero un [baratisimo](tipo) de [30](tamano) cm
 
-## intent:greet+pedidoTipo+pedidoTamaño+
-- hola quiero un [baratisimo](pedidoTipo) de [15](tamaño) cm, en pan [avena](pan)
-- hola de nuevo quiero uno de [jamon](pedidoTipo) de [30](tamaño) cm, con pan [blanco](pan)
-- hey , quiero uno de [Pavo y jamon](pedidoTipo) de [15](tamaño), con pan [oregano](pan)
-- buenas, quiero uno de [pechuga de pavo](pedidoTipo) de [30](tamaño), con pan [integral](pan)
-- buen dia,  dame uno [pechuga de pavo](pedidoTipo) de [15](tamaño) cm con pan [integral](pan)
-- buenos dias, quiero un [italianisimo](pedidoTipo) de [30](tamaño) cm con pan [blanco](pan)
-- buenas tardes, quiero uno de [cerdo desmechado](pedidoTipo) de [30](tamaño) cm con pan [oregano](pan)
-- buenas noches, quiero uno de [pelluga de pollo](pedidoTipo) de [15](tamaño) con pan [blanco](pan)
-- Hola, quiero uno de [Italiano BTM](pedidoTipo) de [30](tamaño) cm con pan [blanco](pan) con pan [integral](pan)
-- Hola de nuevo, quiero uno de [Costillas BBQ](pedidoTipo)de [15](tamaño) con pan [integral](pan)
-- Hey, quiero uno de [Atun](pedidoTipo) de [30](tamaño)  con pan [integral](pan)
-- Buenas, quiero uno de [Pollo Teriyaky](pedidoTipo) de [30](tamaño) cm  con pan [integral](pan)
-- Huen dia, quiero un [Melt](pedidoTipo) de [30](tamaño) cm en  con pan [integral](pan)
-- Buenos diasquiero un [Club](pedidoTipo) de [30](tamaño) cm en con pan [integral](pan)
-- Buenas tardes, quiero un [Roasts Beef](pedidoTipo) de [30](tamaño) con pan [integral](pan)
-- Buenas noches,  quiero un [baratisimo](pedidoTipo) de [30](tamaño) cm con pan [integral](pan)
+## intent:greet+pedidoTipo+pedidoTamano+pedidoPan
+- hola quiero un [baratisimo](tipo) de [15](tamano) cm, en pan [avena](pan)
+- hola de nuevo quiero uno de [jamon](tipo) de [30](tamano) cm, con pan [blanco](pan)
+- hey , quiero uno de [Pavo y jamon](tipo) de [15](tamano), con pan [oregano](pan)
+- buenas, quiero uno de [pechuga de pavo](tipo) de [30](tamano), con pan [integral](pan)
+- buen dia,  dame uno [pechuga de pavo](tipo) de [15](tamano) cm con pan [integral](pan)
+- buenos dias, quiero un [italianisimo](tipo) de [30](tamano) cm con pan [blanco](pan)
+- buenas tardes, quiero uno de [cerdo desmechado](tipo) de [30](tamano) cm con pan [oregano](pan)
+- buenas noches, quiero uno de [pelluga de pollo](tipo) de [15](tamano) con pan [blanco](pan)
+- Hola, quiero uno de [Italiano BTM](tipo) de [30](tamano) cm con pan [blanco](pan) con pan [integral](pan)
+- Hola de nuevo, quiero uno de [Costillas BBQ](tipo)de [15](tamano) con pan [integral](pan)
+- Hey, quiero uno de [Atun](tipo) de [30](tamano)  con pan [integral](pan)
+- Buenas, quiero uno de [Pollo Teriyaky](tipo) de [30](tamano) cm  con pan [integral](pan)
+- Huen dia, quiero un [Melt](tipo) de [30](tamano) cm en  con pan [integral](pan)
+- Buenos diasquiero un [Club](tipo) de [30](tamano) cm en con pan [integral](pan)
+- Buenas tardes, quiero un [Roasts Beef](tipo) de [30](tamano) con pan [integral](pan)
+- Buenas noches,  quiero un [baratisimo](tipo) de [30](tamano) cm con pan [integral](pan)
