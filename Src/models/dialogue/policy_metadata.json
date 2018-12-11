@@ -1,41 +1,49 @@
 {
-  "policy_names": [
-    "rasa_core.policies.memoization.MemoizationPolicy",
-    "rasa_core.policies.keras_policy.KerasPolicy",
-    "rasa_core.policies.fallback.FallbackPolicy"
-  ],
-  "python": "3.5.3",
-  "max_histories": [
-    5,
-    5,
-    null
-  ],
-  "rasa_core": "0.11.12",
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
   "action_fingerprints": {
-    "action_informacion_dia": {
+    "action_confirmar_sub": {
       "slots": []
     },
     "utter_greet": {
       "slots": []
     },
-    "action_informacion_sub": {
+    "action_default_fallback": {
       "slots": []
     },
     "utter_goodbye": {
       "slots": []
     },
-    "action_default_fallback": {
-      "slots": []
-    },
     "action_listen": {
       "slots": [
+        "papas",
         "queso",
-        "quesoAdicional",
+        "gaseosa",
+        "coccion",
+        "galleta",
+        "vegetal7",
         "pan",
+        "salsa",
+        "quesoAdicional",
         "tipo",
+        "vegetal",
+        "vegetal2",
         "tamano"
       ]
+    },
+    "action_informacion_sub": {
+      "slots": []
     }
   },
-  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble"
+  "rasa_core": "0.11.12",
+  "max_histories": [
+    5,
+    5,
+    null
+  ],
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy"
+  ],
+  "python": "3.5.3"
 }

@@ -31,8 +31,6 @@
 - Gracias
 - Nos vemos
 - Nos vemos luego
-- listo 
-- ok 
 
 ## intent:informacionDia
 - Claro, dime el sub del dia 
@@ -44,6 +42,13 @@
 - que sanduche tiene
 - que me puede dar
 
+## intent:informacionMenu
+- muestrame el menu
+- cual es el menu
+- el menu 
+- el menu 
+
+
 ## intent:pedido
 - me das un subway
 - quiero un subway 
@@ -53,7 +58,12 @@
 - por supuesto
 - quero pedir
 - claro quiero pedir
-- claro
+- listo 
+- ok 
+- si claro 
+- claro qiero pedir 
+- si
+- oki  
 
 ## intent:pedidoTipo
 - quiero un [baratisimo](tipo)
@@ -142,14 +152,10 @@
 - No quiero mas queso
 
 ## intent:pedidoAdicionar
-- agregale mas [Americano](adicion) 
-- agregale mas [Provolone](adicion) 
 - agregale mas [tocino](adicion) 
 - agregale mas [pollo](adicion)
 - agregale mas [peperoni](adicion) 
 - agregale mas [carne](adicion) 
-- adicional de [Americano](adicion) 
-- adicional de [Provolone](adicion) 
 - adicional de [tocino](adicion) 
 - adicional de [pollo](adicion)
 - adicional de [peperoni](adicion) 
@@ -194,15 +200,17 @@
 - Galleta [Macadamia](galleta)
 - Galleta [Avenas pasas](galleta)
 
+## intent:pedidoGaseosa
+- [Pepsi](gaseosa)
+- [Manzana](gaseosa)
+- [Colombiana](gaseosa)
+- [Mr tea](gaseosa)
 
 ## intent:estado
-
 - como va mi pedido 
 - que llevo 
 
-
 ## intent:confirmacion
-
 - me gusta
 - asi es como lo quiero 
 
@@ -214,6 +222,8 @@
 - esta asqueroso 
 - Gas 
 - cambiamelo 
+- no
+- ninguno
 
 
 ## intent:greet+pedidoTipo

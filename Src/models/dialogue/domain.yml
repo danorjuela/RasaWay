@@ -9,8 +9,17 @@ actions:
 - utter_coccion
 - utter_adicion_queso
 - utter_queso
+- utter_menu
+- utter_combo
+- utter_galleta
+- utter_gaseosa
+- utter_papas
 - action_informacion_dia
 - action_informacion_sub
+- action_confirmar_sub
+- action_vegetal_adicional
+- action_adicional
+- action_salsa_adicional
 - utter_fallback
 config:
   store_entities_as_slots: true
@@ -26,23 +35,33 @@ entities:
 - papas
 - galletas
 intents:
-- pedidoVegetales:
+- pedidoGalletas:
     use_entities: true
-- pedidoPapas:
+- pedidoAdicionar:
+    use_entities: true
+- pedidoTipo:
+    use_entities: true
+- greet+pedidoTipo+pedidoTamano+pedidoPan:
     use_entities: true
 - goodbye:
     use_entities: true
+- greet:
+    use_entities: true
 - pedidoQueso:
+    use_entities: true
+- pedidoTamano:
+    use_entities: true
+- confirmacion:
+    use_entities: true
+- pedidoVegetales:
     use_entities: true
 - informacionDia:
     use_entities: true
 - pedidoPan:
     use_entities: true
-- greet:
+- pedidoSalsas:
     use_entities: true
-- greet+pedidoTipo+pedidoTamano+pedidoPan:
-    use_entities: true
-- pedidoTamano:
+- negacion:
     use_entities: true
 - estado:
     use_entities: true
@@ -50,35 +69,31 @@ intents:
     use_entities: true
 - greet+pedidoTipo:
     use_entities: true
-- confirmacion:
-    use_entities: true
-- pedidoSalsas:
-    use_entities: true
-- pedidoGalletas:
-    use_entities: true
-- pedidoTipo:
-    use_entities: true
-- pedidoAdicionar:
-    use_entities: true
-- negacion:
+- pedidoPapas:
     use_entities: true
 slots:
-  Adicional1:
+  adicional1:
     initial_value: null
     type: rasa_core.slots.TextSlot
-  Adicional2:
+  adicional2:
     initial_value: null
     type: rasa_core.slots.TextSlot
-  Adicional3:
-    initial_value: null
-    type: rasa_core.slots.TextSlot
-  AdicionalNum:
+  adicional3:
     initial_value: null
     type: rasa_core.slots.TextSlot
   coccion:
     initial_value: null
     type: rasa_core.slots.TextSlot
+  galleta:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  gaseosa:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
   pan:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  papas:
     initial_value: null
     type: rasa_core.slots.TextSlot
   queso:
@@ -87,10 +102,46 @@ slots:
   quesoAdicional:
     initial_value: null
     type: rasa_core.slots.TextSlot
+  salsa1:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  salsa2:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  salsa3:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
   tamano:
     initial_value: null
     type: rasa_core.slots.TextSlot
   tipo:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  vegetal:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  vegetal1:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  vegetal2:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  vegetal3:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  vegetal4:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  vegetal5:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  vegetal6:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  vegetal7:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  vegetal8:
     initial_value: null
     type: rasa_core.slots.TextSlot
 templates:
@@ -112,12 +163,48 @@ templates:
     - payload: Frio
       title: Frio
     text: ¿Que coccion Deseas?
+  utter_combo:
+  - buttons:
+    - payload: si
+      title: si
+    - payload: 'no'
+      title: 'no'
+    text: Te podemos ofrecer un combo con papas y gaseosa
   utter_fallback:
   - text: creo que no te entiendo, pero seguro puedo ayudarte con tu pedido
+  utter_galleta:
+  - buttons:
+    - payload: choco Chips
+      title: choco Chips
+    - payload: doble Chocolate
+      title: doble Chocolate
+    - payload: Macadamia
+      title: Macadamia
+    - payload: Avenas pasas
+      title: Avenas pasas
+    text: Que galleta Deseas
+  utter_gaseosa:
+  - buttons:
+    - payload: manzana
+      title: manzana
+    - payload: pepsi
+      title: pepsi
+    - payload: Colombiana
+      title: Colombiana
+    - payload: Mr tea
+      title: Mr tea
+    text: Que gaseosa Deseas
   utter_goodbye:
   - text: hablame luego.
   utter_greet:
-  - text: Bienvenido a Subway, puedo tomar su pedido?
+  - text: Bienvenido a Subway, simpre tenemos un sub del dia, pregunta por el, te
+      puedo mostrar el menu o prefieres pedir?
+  utter_menu:
+  - text: En subway encontraras un menu que te sorprendera , te podemos ofrecer \n
+      sub baratisimo \n sub de jamon \n  sub de Pavo y jamon \n  sub italianisimo  \n  sub
+      de cerdo desmechado  \n pelluga de pollo  \n Italiano BTM  \n sub de  Costillas
+      BBQ  \n sub de Atun  \n sub de Pollo Teriyaky  \n  sub Melt  \n  sub Club  \n
+      sub Roasts Beef
   utter_pan:
   - buttons:
     - payload: Avena
@@ -129,6 +216,30 @@ templates:
     - payload: Blanco
       title: Blanco
     text: ¿Que tipo de Pan desea?
+  utter_papas:
+  - buttons:
+    - payload: Papitas Limon
+      title: Limon
+    - payload: Papitas Pollo
+      title: Pollo
+    - payload: Papitas Naturales
+      title: Naturales
+    - payload: 'Papitas Alitas '
+      title: Alitas
+    - payload: Papitas Sal
+      title: Sal
+    text: Que papitas Deseas
+  utter_pedidoEdicion:
+  - buttons:
+    - payload: tipo
+      title: Tipo
+    - payload: doble Chocolate
+      title: doble Chocolate
+    - payload: Macadamia
+      title: Macadamia
+    - payload: Avenas pasas
+      title: Avenas pasas
+    text: Que desea cambiar de su pedido
   utter_queso:
   - buttons:
     - payload: Americano

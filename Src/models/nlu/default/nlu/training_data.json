@@ -1,2247 +1,2291 @@
 {
   "rasa_nlu_data": {
-    "lookup_tables": [],
     "common_examples": [
       {
-        "intent": "greet",
-        "text": "hola"
+        "text": "hola",
+        "intent": "greet"
       },
       {
-        "intent": "greet",
-        "text": "hola de nuevo"
+        "text": "hola de nuevo",
+        "intent": "greet"
       },
       {
-        "intent": "greet",
-        "text": "hey"
+        "text": "hey",
+        "intent": "greet"
       },
       {
-        "intent": "greet",
-        "text": "buenas"
+        "text": "buenas",
+        "intent": "greet"
       },
       {
-        "intent": "greet",
-        "text": "buen dia"
+        "text": "buen dia",
+        "intent": "greet"
       },
       {
-        "intent": "greet",
-        "text": "buenos dias"
+        "text": "buenos dias",
+        "intent": "greet"
       },
       {
-        "intent": "greet",
-        "text": "buenas tardes"
+        "text": "buenas tardes",
+        "intent": "greet"
       },
       {
-        "intent": "greet",
-        "text": "buenas noches"
+        "text": "buenas noches",
+        "intent": "greet"
       },
       {
-        "intent": "greet",
-        "text": "Hola"
+        "text": "Hola",
+        "intent": "greet"
       },
       {
-        "intent": "greet",
-        "text": "Hola de nuevo"
+        "text": "Hola de nuevo",
+        "intent": "greet"
       },
       {
-        "intent": "greet",
-        "text": "Hey"
+        "text": "Hey",
+        "intent": "greet"
       },
       {
-        "intent": "greet",
-        "text": "Buenas"
+        "text": "Buenas",
+        "intent": "greet"
       },
       {
-        "intent": "greet",
-        "text": "Huen dia"
+        "text": "Huen dia",
+        "intent": "greet"
       },
       {
-        "intent": "greet",
-        "text": "Buenos dias"
+        "text": "Buenos dias",
+        "intent": "greet"
       },
       {
-        "intent": "greet",
-        "text": "Buenas tardes"
+        "text": "Buenas tardes",
+        "intent": "greet"
       },
       {
-        "intent": "greet",
-        "text": "Buenas noches"
+        "text": "Buenas noches",
+        "intent": "greet"
       },
       {
-        "intent": "goodbye",
-        "text": "adios"
+        "text": "adios",
+        "intent": "goodbye"
       },
       {
-        "intent": "goodbye",
-        "text": "chao"
+        "text": "chao",
+        "intent": "goodbye"
       },
       {
-        "intent": "goodbye",
-        "text": "suerte"
+        "text": "suerte",
+        "intent": "goodbye"
       },
       {
-        "intent": "goodbye",
-        "text": "Que bien Gracias"
+        "text": "Que bien Gracias",
+        "intent": "goodbye"
       },
       {
-        "intent": "goodbye",
-        "text": "gracias"
+        "text": "gracias",
+        "intent": "goodbye"
       },
       {
-        "intent": "goodbye",
-        "text": "nos vemos"
+        "text": "nos vemos",
+        "intent": "goodbye"
       },
       {
-        "intent": "goodbye",
-        "text": "nos vemos luego"
+        "text": "nos vemos luego",
+        "intent": "goodbye"
       },
       {
-        "intent": "goodbye",
-        "text": "Adios"
+        "text": "Adios",
+        "intent": "goodbye"
       },
       {
-        "intent": "goodbye",
-        "text": "Chao"
+        "text": "Chao",
+        "intent": "goodbye"
       },
       {
-        "intent": "goodbye",
-        "text": "Suerte"
+        "text": "Suerte",
+        "intent": "goodbye"
       },
       {
-        "intent": "goodbye",
-        "text": "que bien gracias"
+        "text": "que bien gracias",
+        "intent": "goodbye"
       },
       {
-        "intent": "goodbye",
-        "text": "Gracias"
+        "text": "Gracias",
+        "intent": "goodbye"
       },
       {
-        "intent": "goodbye",
-        "text": "Nos vemos"
+        "text": "Nos vemos",
+        "intent": "goodbye"
       },
       {
-        "intent": "goodbye",
-        "text": "Nos vemos luego"
+        "text": "Nos vemos luego",
+        "intent": "goodbye"
       },
       {
-        "intent": "goodbye",
-        "text": "listo"
+        "text": "Claro, dime el sub del dia",
+        "intent": "informacionDia"
       },
       {
-        "intent": "goodbye",
-        "text": "ok"
+        "text": "Cual es el sub de hoy",
+        "intent": "informacionDia"
       },
       {
-        "intent": "informacionDia",
-        "text": "Claro, dime el sub del dia"
+        "text": "cual es el subway del dia",
+        "intent": "informacionDia"
       },
       {
-        "intent": "informacionDia",
-        "text": "Cual es el sub de hoy"
+        "text": "cual es el menu del dia",
+        "intent": "informacionDia"
       },
       {
-        "intent": "informacionDia",
-        "text": "cual es el subway del dia"
+        "text": "Que hay para hoy",
+        "intent": "informacionDia"
       },
       {
-        "intent": "informacionDia",
-        "text": "cual es el menu del dia"
+        "text": "que sanduches hay",
+        "intent": "informacionDia"
       },
       {
-        "intent": "informacionDia",
-        "text": "Que hay para hoy"
+        "text": "que sanduche tiene",
+        "intent": "informacionDia"
       },
       {
-        "intent": "informacionDia",
-        "text": "que sanduches hay"
+        "text": "que me puede dar",
+        "intent": "informacionDia"
       },
       {
-        "intent": "informacionDia",
-        "text": "que sanduche tiene"
+        "text": "me das un subway",
+        "intent": "pedido"
       },
       {
-        "intent": "informacionDia",
-        "text": "que me puede dar"
+        "text": "quiero un subway",
+        "intent": "pedido"
       },
       {
-        "intent": "pedido",
-        "text": "me das un subway"
+        "text": "claro , dame un sub",
+        "intent": "pedido"
       },
       {
-        "intent": "pedido",
-        "text": "quiero un subway"
+        "text": "quiero un sub",
+        "intent": "pedido"
       },
       {
-        "intent": "pedido",
-        "text": "claro , dame un sub"
+        "text": "claro",
+        "intent": "pedido"
       },
       {
-        "intent": "pedido",
-        "text": "quiero un sub"
+        "text": "por supuesto",
+        "intent": "pedido"
       },
       {
-        "intent": "pedido",
-        "text": "claro"
+        "text": "quero pedir",
+        "intent": "pedido"
       },
       {
-        "intent": "pedido",
-        "text": "por supuesto"
+        "text": "claro quiero pedir",
+        "intent": "pedido"
       },
       {
-        "intent": "pedido",
-        "text": "quero pedir"
+        "text": "listo",
+        "intent": "pedido"
       },
       {
-        "intent": "pedido",
-        "text": "claro quiero pedir"
+        "text": "ok",
+        "intent": "pedido"
       },
       {
-        "intent": "pedido",
-        "text": "claro"
+        "text": "si claro",
+        "intent": "pedido"
       },
       {
-        "intent": "pedidoTipo",
+        "text": "claro qiero pedir",
+        "intent": "pedido"
+      },
+      {
+        "text": "si",
+        "intent": "pedido"
+      },
+      {
+        "text": "oki",
+        "intent": "pedido"
+      },
+      {
         "entities": [
           {
+            "entity": "tipo",
             "start": 10,
             "end": 20,
-            "value": "baratisimo",
-            "entity": "tipo"
+            "value": "baratisimo"
           }
         ],
-        "text": "quiero un baratisimo"
+        "text": "quiero un baratisimo",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 14,
             "end": 19,
-            "value": "jamon",
-            "entity": "tipo"
+            "value": "jamon"
           }
         ],
-        "text": "quiero uno de jamon"
+        "text": "quiero uno de jamon",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 14,
             "end": 26,
-            "value": "Pavo y jamon",
-            "entity": "tipo"
+            "value": "Pavo y jamon"
           }
         ],
-        "text": "quiero uno de Pavo y jamon"
+        "text": "quiero uno de Pavo y jamon",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 14,
             "end": 29,
-            "value": "pechuga de pavo",
-            "entity": "tipo"
+            "value": "pechuga de pavo"
           }
         ],
-        "text": "quiero uno de pechuga de pavo"
+        "text": "quiero uno de pechuga de pavo",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 0,
             "end": 15,
-            "value": "pechuga de pavo",
-            "entity": "tipo"
+            "value": "pechuga de pavo"
           }
         ],
-        "text": "pechuga de pavo"
+        "text": "pechuga de pavo",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 0,
             "end": 5,
-            "value": "carne",
-            "entity": "tipo"
+            "value": "carne"
           }
         ],
-        "text": "carne"
+        "text": "carne",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 10,
             "end": 22,
-            "value": "italianisimo",
-            "entity": "tipo"
+            "value": "italianisimo"
           }
         ],
-        "text": "quiero un italianisimo"
+        "text": "quiero un italianisimo",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 14,
             "end": 30,
-            "value": "cerdo desmechado",
-            "entity": "tipo"
+            "value": "cerdo desmechado"
           }
         ],
-        "text": "quiero uno de cerdo desmechado"
+        "text": "quiero uno de cerdo desmechado",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 14,
             "end": 23,
-            "value": "cerdo BBQ",
-            "entity": "tipo"
+            "value": "cerdo BBQ"
           }
         ],
-        "text": "quiero uno de cerdo BBQ"
+        "text": "quiero uno de cerdo BBQ",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 14,
             "end": 30,
-            "value": "pelluga de pollo",
-            "entity": "tipo"
+            "value": "pelluga de pollo"
           }
         ],
-        "text": "quiero uno de pelluga de pollo"
+        "text": "quiero uno de pelluga de pollo",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 14,
             "end": 26,
-            "value": "Italiano BTM",
-            "entity": "tipo"
+            "value": "Italiano BTM"
           }
         ],
-        "text": "quiero uno de Italiano BTM"
+        "text": "quiero uno de Italiano BTM",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 14,
             "end": 27,
-            "value": "Costillas BBQ",
-            "entity": "tipo"
+            "value": "Costillas BBQ"
           }
         ],
-        "text": "quiero uno de Costillas BBQ"
+        "text": "quiero uno de Costillas BBQ",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 14,
             "end": 18,
-            "value": "Atun",
-            "entity": "tipo"
+            "value": "Atun"
           }
         ],
-        "text": "quiero uno de Atun"
+        "text": "quiero uno de Atun",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 14,
             "end": 28,
-            "value": "Pollo Teriyaky",
-            "entity": "tipo"
+            "value": "Pollo Teriyaky"
           }
         ],
-        "text": "quiero uno de Pollo Teriyaky"
+        "text": "quiero uno de Pollo Teriyaky",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 10,
             "end": 14,
-            "value": "Melt",
-            "entity": "tipo"
+            "value": "Melt"
           }
         ],
-        "text": "quiero un Melt"
+        "text": "quiero un Melt",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 10,
             "end": 14,
-            "value": "Club",
-            "entity": "tipo"
+            "value": "Club"
           }
         ],
-        "text": "quiero un Club"
+        "text": "quiero un Club",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 10,
             "end": 21,
-            "value": "Roasts Beef",
-            "entity": "tipo"
+            "value": "Roasts Beef"
           }
         ],
-        "text": "quiero un Roasts Beef"
+        "text": "quiero un Roasts Beef",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 0,
             "end": 10,
-            "value": "baratisimo",
-            "entity": "tipo"
+            "value": "baratisimo"
           }
         ],
-        "text": "baratisimo"
+        "text": "baratisimo",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 0,
             "end": 5,
-            "value": "jamon",
-            "entity": "tipo"
+            "value": "jamon"
           }
         ],
-        "text": "jamon"
+        "text": "jamon",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 0,
             "end": 12,
-            "value": "Pavo y jamon",
-            "entity": "tipo"
+            "value": "Pavo y jamon"
           }
         ],
-        "text": "Pavo y jamon"
+        "text": "Pavo y jamon",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 0,
             "end": 15,
-            "value": "pechuga de pavo",
-            "entity": "tipo"
+            "value": "pechuga de pavo"
           }
         ],
-        "text": "pechuga de pavo"
+        "text": "pechuga de pavo",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 0,
             "end": 12,
-            "value": "italianisimo",
-            "entity": "tipo"
+            "value": "italianisimo"
           }
         ],
-        "text": "italianisimo"
+        "text": "italianisimo",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 0,
             "end": 16,
-            "value": "cerdo desmechado",
-            "entity": "tipo"
+            "value": "cerdo desmechado"
           }
         ],
-        "text": "cerdo desmechado"
+        "text": "cerdo desmechado",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 0,
             "end": 16,
-            "value": "pelluga de pollo",
-            "entity": "tipo"
+            "value": "pelluga de pollo"
           }
         ],
-        "text": "pelluga de pollo"
+        "text": "pelluga de pollo",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 0,
             "end": 12,
-            "value": "Italiano BTM",
-            "entity": "tipo"
+            "value": "Italiano BTM"
           }
         ],
-        "text": "Italiano BTM"
+        "text": "Italiano BTM",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 0,
             "end": 13,
-            "value": "Costillas BBQ",
-            "entity": "tipo"
+            "value": "Costillas BBQ"
           }
         ],
-        "text": "Costillas BBQ"
+        "text": "Costillas BBQ",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 0,
             "end": 4,
-            "value": "Atun",
-            "entity": "tipo"
+            "value": "Atun"
           }
         ],
-        "text": "Atun"
+        "text": "Atun",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 0,
             "end": 14,
-            "value": "Pollo Teriyaky",
-            "entity": "tipo"
+            "value": "Pollo Teriyaky"
           }
         ],
-        "text": "Pollo Teriyaky"
+        "text": "Pollo Teriyaky",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 0,
             "end": 4,
-            "value": "Melt",
-            "entity": "tipo"
+            "value": "Melt"
           }
         ],
-        "text": "Melt"
+        "text": "Melt",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 0,
             "end": 4,
-            "value": "Club",
-            "entity": "tipo"
+            "value": "Club"
           }
         ],
-        "text": "Club"
+        "text": "Club",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 0,
             "end": 11,
-            "value": "Roasts Beef",
-            "entity": "tipo"
+            "value": "Roasts Beef"
           }
         ],
-        "text": "Roasts Beef"
+        "text": "Roasts Beef",
+        "intent": "pedidoTipo"
       },
       {
-        "intent": "pedidoTipoNegacion",
-        "text": "No quiero el sub del dia"
+        "text": "No quiero el sub del dia",
+        "intent": "pedidoTipoNegacion"
       },
       {
-        "intent": "pedidoTipoNegacion",
-        "text": "No quiero el suway del dia"
+        "text": "No quiero el suway del dia",
+        "intent": "pedidoTipoNegacion"
       },
       {
-        "intent": "pedidoTamano",
+        "text": "No quiero ese sub",
+        "intent": "pedidoNegacion"
+      },
+      {
+        "text": "No quiero el sub",
+        "intent": "pedidoNegacion"
+      },
+      {
+        "text": "no, no quiero ese",
+        "intent": "pedidoNegacion"
+      },
+      {
+        "text": "Quiero ese sub",
+        "intent": "pedidoConfirmacion"
+      },
+      {
+        "text": "Lo quiero",
+        "intent": "pedidoConfirmacion"
+      },
+      {
+        "text": "si, quiero ese Sub",
+        "intent": "pedidoConfirmacion"
+      },
+      {
         "entities": [
           {
+            "entity": "tamano",
             "start": 3,
             "end": 5,
-            "value": "15",
-            "entity": "tamano"
+            "value": "15"
           }
         ],
-        "text": "de 15 cm"
+        "text": "de 15 cm",
+        "intent": "pedidoTamano"
       },
       {
-        "intent": "pedidoTamano",
         "entities": [
           {
+            "entity": "tamano",
             "start": 3,
             "end": 5,
-            "value": "30",
-            "entity": "tamano"
+            "value": "30"
           }
         ],
-        "text": "de 30 cm"
+        "text": "de 30 cm",
+        "intent": "pedidoTamano"
       },
       {
-        "intent": "pedidoTamano",
         "entities": [
           {
+            "entity": "tamano",
             "start": 0,
             "end": 2,
-            "value": "15",
-            "entity": "tamano"
+            "value": "15"
           }
         ],
-        "text": "15"
+        "text": "15",
+        "intent": "pedidoTamano"
       },
       {
-        "intent": "pedidoTamano",
         "entities": [
           {
+            "entity": "tamano",
             "start": 0,
             "end": 2,
-            "value": "30",
-            "entity": "tamano"
+            "value": "30"
           }
         ],
-        "text": "30"
+        "text": "30",
+        "intent": "pedidoTamano"
       },
       {
-        "intent": "pedidoPan",
         "entities": [
           {
+            "entity": "pan",
             "start": 0,
             "end": 5,
-            "value": "avena",
-            "entity": "pan"
+            "value": "avena"
           }
         ],
-        "text": "avena"
+        "text": "avena",
+        "intent": "pedidoPan"
       },
       {
-        "intent": "pedidoPan",
         "entities": [
           {
+            "entity": "pan",
             "start": 0,
             "end": 6,
-            "value": "blanco",
-            "entity": "pan"
+            "value": "blanco"
           }
         ],
-        "text": "blanco"
+        "text": "blanco",
+        "intent": "pedidoPan"
       },
       {
-        "intent": "pedidoPan",
         "entities": [
           {
+            "entity": "pan",
             "start": 0,
             "end": 7,
-            "value": "oregano",
-            "entity": "pan"
+            "value": "oregano"
           }
         ],
-        "text": "oregano"
+        "text": "oregano",
+        "intent": "pedidoPan"
       },
       {
-        "intent": "pedidoPan",
         "entities": [
           {
+            "entity": "pan",
             "start": 0,
             "end": 8,
-            "value": "integral",
-            "entity": "pan"
+            "value": "integral"
           }
         ],
-        "text": "integral"
+        "text": "integral",
+        "intent": "pedidoPan"
       },
       {
-        "intent": "pedidoPan",
         "entities": [
           {
+            "entity": "pan",
             "start": 8,
             "end": 13,
-            "value": "avena",
-            "entity": "pan"
+            "value": "avena"
           }
         ],
-        "text": "con pan avena"
+        "text": "con pan avena",
+        "intent": "pedidoPan"
       },
       {
-        "intent": "pedidoPan",
         "entities": [
           {
+            "entity": "pan",
             "start": 8,
             "end": 14,
-            "value": "blanco",
-            "entity": "pan"
+            "value": "blanco"
           }
         ],
-        "text": "con pan blanco"
+        "text": "con pan blanco",
+        "intent": "pedidoPan"
       },
       {
-        "intent": "pedidoPan",
         "entities": [
           {
+            "entity": "pan",
             "start": 8,
             "end": 15,
-            "value": "oregano",
-            "entity": "pan"
+            "value": "oregano"
           }
         ],
-        "text": "con pan oregano"
+        "text": "con pan oregano",
+        "intent": "pedidoPan"
       },
       {
-        "intent": "pedidoPan",
         "entities": [
           {
+            "entity": "pan",
             "start": 8,
             "end": 16,
-            "value": "integral",
-            "entity": "pan"
+            "value": "integral"
           }
         ],
-        "text": "con pan integral"
+        "text": "con pan integral",
+        "intent": "pedidoPan"
       },
       {
-        "intent": "pedidoCoccion",
         "entities": [
           {
+            "entity": "coccion",
             "start": 10,
             "end": 17,
-            "value": "Caliete",
-            "entity": "coccion"
+            "value": "Caliete"
           }
         ],
-        "text": "lo quiero Caliete"
+        "text": "lo quiero Caliete",
+        "intent": "pedidoCoccion"
       },
       {
-        "intent": "pedidoCoccion",
         "entities": [
           {
+            "entity": "coccion",
             "start": 10,
             "end": 14,
-            "value": "frio",
-            "entity": "coccion"
+            "value": "frio"
           }
         ],
-        "text": "lo quiero frio"
+        "text": "lo quiero frio",
+        "intent": "pedidoCoccion"
       },
       {
-        "intent": "pedidoCoccion",
         "entities": [
           {
+            "entity": "coccion",
             "start": 10,
             "end": 17,
-            "value": "Tostado",
-            "entity": "coccion"
+            "value": "Tostado"
           }
         ],
-        "text": "lo quiero Tostado"
+        "text": "lo quiero Tostado",
+        "intent": "pedidoCoccion"
       },
       {
-        "intent": "pedidoCoccion",
         "entities": [
           {
+            "entity": "coccion",
             "start": 0,
             "end": 7,
-            "value": "Caliete",
-            "entity": "coccion"
+            "value": "Caliete"
           }
         ],
-        "text": "Caliete"
+        "text": "Caliete",
+        "intent": "pedidoCoccion"
       },
       {
-        "intent": "pedidoCoccion",
         "entities": [
           {
+            "entity": "coccion",
             "start": 0,
             "end": 4,
-            "value": "frio",
-            "entity": "coccion"
+            "value": "frio"
           }
         ],
-        "text": "frio"
+        "text": "frio",
+        "intent": "pedidoCoccion"
       },
       {
-        "intent": "pedidoCoccion",
         "entities": [
           {
+            "entity": "coccion",
             "start": 0,
             "end": 7,
-            "value": "Tostado",
-            "entity": "coccion"
+            "value": "Tostado"
           }
         ],
-        "text": "Tostado"
+        "text": "Tostado",
+        "intent": "pedidoCoccion"
       },
       {
-        "intent": "pedidoQueso",
         "entities": [
           {
+            "entity": "queso",
             "start": 4,
             "end": 13,
-            "value": "Americano",
-            "entity": "queso"
+            "value": "Americano"
           }
         ],
-        "text": "con Americano"
+        "text": "con Americano",
+        "intent": "pedidoQueso"
       },
       {
-        "intent": "pedidoQueso",
         "entities": [
           {
+            "entity": "queso",
             "start": 4,
             "end": 13,
-            "value": "Provolone",
-            "entity": "queso"
+            "value": "Provolone"
           }
         ],
-        "text": "con Provolone"
+        "text": "con Provolone",
+        "intent": "pedidoQueso"
       },
       {
-        "intent": "pedidoQueso",
         "entities": [
           {
+            "entity": "queso",
             "start": 0,
             "end": 9,
-            "value": "Americano",
-            "entity": "queso"
+            "value": "Americano"
           }
         ],
-        "text": "Americano"
+        "text": "Americano",
+        "intent": "pedidoQueso"
       },
       {
-        "intent": "pedidoQueso",
         "entities": [
           {
+            "entity": "queso",
             "start": 0,
             "end": 9,
-            "value": "Provolone",
-            "entity": "queso"
+            "value": "Provolone"
           }
         ],
-        "text": "Provolone"
+        "text": "Provolone",
+        "intent": "pedidoQueso"
       },
       {
-        "intent": "pedidoQuesoAdional",
         "entities": [
           {
+            "entity": "quesoAdicional",
             "start": 13,
             "end": 22,
-            "value": "Americano",
-            "entity": "quesoAdicional"
+            "value": "Americano"
           }
         ],
-        "text": "agregale mas Americano"
+        "text": "agregale mas Americano",
+        "intent": "pedidoQuesoAdional"
       },
       {
-        "intent": "pedidoQuesoAdional",
         "entities": [
           {
+            "entity": "quesoAdicional",
             "start": 13,
             "end": 22,
-            "value": "Provolone",
-            "entity": "quesoAdicional"
+            "value": "Provolone"
           }
         ],
-        "text": "agregale mas Provolone"
+        "text": "agregale mas Provolone",
+        "intent": "pedidoQuesoAdional"
       },
       {
-        "intent": "pedidoQuesoAdionalNegacion",
-        "text": "No quiero queso adicional"
+        "text": "No quiero queso adicional",
+        "intent": "pedidoQuesoAdionalNegacion"
       },
       {
-        "intent": "pedidoQuesoAdionalNegacion",
-        "text": "No quiero mas queso"
+        "text": "No quiero mas queso",
+        "intent": "pedidoQuesoAdionalNegacion"
       },
       {
-        "intent": "pedidoAdicionar",
         "entities": [
           {
-            "start": 13,
-            "end": 22,
-            "value": "Americano",
-            "entity": "adicion"
-          }
-        ],
-        "text": "agregale mas Americano"
-      },
-      {
-        "intent": "pedidoAdicionar",
-        "entities": [
-          {
-            "start": 13,
-            "end": 22,
-            "value": "Provolone",
-            "entity": "adicion"
-          }
-        ],
-        "text": "agregale mas Provolone"
-      },
-      {
-        "intent": "pedidoAdicionar",
-        "entities": [
-          {
+            "entity": "adicion",
             "start": 13,
             "end": 19,
-            "value": "tocino",
-            "entity": "adicion"
+            "value": "tocino"
           }
         ],
-        "text": "agregale mas tocino"
+        "text": "agregale mas tocino",
+        "intent": "pedidoAdicionar"
       },
       {
-        "intent": "pedidoAdicionar",
         "entities": [
           {
+            "entity": "adicion",
             "start": 13,
             "end": 18,
-            "value": "pollo",
-            "entity": "adicion"
+            "value": "pollo"
           }
         ],
-        "text": "agregale mas pollo"
+        "text": "agregale mas pollo",
+        "intent": "pedidoAdicionar"
       },
       {
-        "intent": "pedidoAdicionar",
         "entities": [
           {
+            "entity": "adicion",
             "start": 13,
             "end": 21,
-            "value": "peperoni",
-            "entity": "adicion"
+            "value": "peperoni"
           }
         ],
-        "text": "agregale mas peperoni"
+        "text": "agregale mas peperoni",
+        "intent": "pedidoAdicionar"
       },
       {
-        "intent": "pedidoAdicionar",
         "entities": [
           {
+            "entity": "adicion",
             "start": 13,
             "end": 18,
-            "value": "carne",
-            "entity": "adicion"
+            "value": "carne"
           }
         ],
-        "text": "agregale mas carne"
+        "text": "agregale mas carne",
+        "intent": "pedidoAdicionar"
       },
       {
-        "intent": "pedidoAdicionar",
         "entities": [
           {
-            "start": 13,
-            "end": 22,
-            "value": "Americano",
-            "entity": "adicion"
-          }
-        ],
-        "text": "adicional de Americano"
-      },
-      {
-        "intent": "pedidoAdicionar",
-        "entities": [
-          {
-            "start": 13,
-            "end": 22,
-            "value": "Provolone",
-            "entity": "adicion"
-          }
-        ],
-        "text": "adicional de Provolone"
-      },
-      {
-        "intent": "pedidoAdicionar",
-        "entities": [
-          {
+            "entity": "adicion",
             "start": 13,
             "end": 19,
-            "value": "tocino",
-            "entity": "adicion"
+            "value": "tocino"
           }
         ],
-        "text": "adicional de tocino"
+        "text": "adicional de tocino",
+        "intent": "pedidoAdicionar"
       },
       {
-        "intent": "pedidoAdicionar",
         "entities": [
           {
+            "entity": "adicion",
             "start": 13,
             "end": 18,
-            "value": "pollo",
-            "entity": "adicion"
+            "value": "pollo"
           }
         ],
-        "text": "adicional de pollo"
+        "text": "adicional de pollo",
+        "intent": "pedidoAdicionar"
       },
       {
-        "intent": "pedidoAdicionar",
         "entities": [
           {
+            "entity": "adicion",
             "start": 13,
             "end": 21,
-            "value": "peperoni",
-            "entity": "adicion"
+            "value": "peperoni"
           }
         ],
-        "text": "adicional de peperoni"
+        "text": "adicional de peperoni",
+        "intent": "pedidoAdicionar"
       },
       {
-        "intent": "pedidoAdicionar",
         "entities": [
           {
+            "entity": "adicion",
             "start": 13,
             "end": 18,
-            "value": "carne",
-            "entity": "adicion"
+            "value": "carne"
           }
         ],
-        "text": "adicional de carne"
+        "text": "adicional de carne",
+        "intent": "pedidoAdicionar"
       },
       {
-        "intent": "pedidoVegetales",
         "entities": [
           {
+            "entity": "vegetal",
             "start": 0,
             "end": 7,
-            "value": "Lechuga",
-            "entity": "vegetal"
+            "value": "Lechuga"
           }
         ],
-        "text": "Lechuga"
+        "text": "Lechuga",
+        "intent": "pedidoVegetales"
       },
       {
-        "intent": "pedidoVegetales",
         "entities": [
           {
+            "entity": "vegetal",
             "start": 0,
             "end": 6,
-            "value": "Tomate",
-            "entity": "vegetal"
+            "value": "Tomate"
           }
         ],
-        "text": "Tomate"
+        "text": "Tomate",
+        "intent": "pedidoVegetales"
       },
       {
-        "intent": "pedidoVegetales",
         "entities": [
           {
+            "entity": "vegetal",
             "start": 0,
             "end": 6,
-            "value": "Pepino",
-            "entity": "vegetal"
+            "value": "Pepino"
           }
         ],
-        "text": "Pepino"
+        "text": "Pepino",
+        "intent": "pedidoVegetales"
       },
       {
-        "intent": "pedidoVegetales",
         "entities": [
           {
+            "entity": "vegetal",
             "start": 0,
             "end": 9,
-            "value": "Pepiillos",
-            "entity": "vegetal"
+            "value": "Pepiillos"
           }
         ],
-        "text": "Pepiillos"
+        "text": "Pepiillos",
+        "intent": "pedidoVegetales"
       },
       {
-        "intent": "pedidoVegetales",
         "entities": [
           {
+            "entity": "vegetal",
             "start": 0,
             "end": 8,
-            "value": "Pimenton",
-            "entity": "vegetal"
+            "value": "Pimenton"
           }
         ],
-        "text": "Pimenton"
+        "text": "Pimenton",
+        "intent": "pedidoVegetales"
       },
       {
-        "intent": "pedidoVegetales",
         "entities": [
           {
+            "entity": "vegetal",
             "start": 0,
             "end": 7,
-            "value": "Cebolla",
-            "entity": "vegetal"
+            "value": "Cebolla"
           }
         ],
-        "text": "Cebolla"
+        "text": "Cebolla",
+        "intent": "pedidoVegetales"
       },
       {
-        "intent": "pedidoVegetales",
         "entities": [
           {
+            "entity": "vegetal",
             "start": 0,
             "end": 9,
-            "value": "Aceitunas",
-            "entity": "vegetal"
+            "value": "Aceitunas"
           }
         ],
-        "text": "Aceitunas"
+        "text": "Aceitunas",
+        "intent": "pedidoVegetales"
       },
       {
-        "intent": "pedidoVegetales",
         "entities": [
           {
+            "entity": "vegetal",
             "start": 0,
             "end": 10,
-            "value": "Jalapechos",
-            "entity": "vegetal"
+            "value": "Jalapechos"
           }
         ],
-        "text": "Jalapechos"
+        "text": "Jalapechos",
+        "intent": "pedidoVegetales"
       },
       {
-        "intent": "pedidoSalsas",
         "entities": [
           {
+            "entity": "salsa",
             "start": 0,
             "end": 8,
-            "value": "Mayonesa",
-            "entity": "salsa"
+            "value": "Mayonesa"
           }
         ],
-        "text": "Mayonesa"
+        "text": "Mayonesa",
+        "intent": "pedidoSalsas"
       },
       {
-        "intent": "pedidoSalsas",
         "entities": [
           {
+            "entity": "salsa",
             "start": 0,
             "end": 13,
-            "value": "Cebolla Dulce",
-            "entity": "salsa"
+            "value": "Cebolla Dulce"
           }
         ],
-        "text": "Cebolla Dulce"
+        "text": "Cebolla Dulce",
+        "intent": "pedidoSalsas"
       },
       {
-        "intent": "pedidoSalsas",
         "entities": [
           {
+            "entity": "salsa",
             "start": 0,
             "end": 13,
-            "value": "Mostaza Dulce",
-            "entity": "salsa"
+            "value": "Mostaza Dulce"
           }
         ],
-        "text": "Mostaza Dulce"
+        "text": "Mostaza Dulce",
+        "intent": "pedidoSalsas"
       },
       {
-        "intent": "pedidoSalsas",
         "entities": [
           {
+            "entity": "salsa",
             "start": 0,
             "end": 7,
-            "value": "Moztaza",
-            "entity": "salsa"
+            "value": "Moztaza"
           }
         ],
-        "text": "Moztaza"
+        "text": "Moztaza",
+        "intent": "pedidoSalsas"
       },
       {
-        "intent": "pedidoSalsas",
         "entities": [
           {
+            "entity": "salsa",
             "start": 0,
             "end": 3,
-            "value": "BBQ",
-            "entity": "salsa"
+            "value": "BBQ"
           }
         ],
-        "text": "BBQ"
+        "text": "BBQ",
+        "intent": "pedidoSalsas"
       },
       {
-        "intent": "pedidoSalsas",
         "entities": [
           {
+            "entity": "salsa",
             "start": 0,
             "end": 7,
-            "value": "Chipote",
-            "entity": "salsa"
+            "value": "Chipote"
           }
         ],
-        "text": "Chipote"
+        "text": "Chipote",
+        "intent": "pedidoSalsas"
       },
       {
-        "intent": "pedidoSalsas",
         "entities": [
           {
+            "entity": "salsa",
             "start": 0,
             "end": 4,
-            "value": "Rach",
-            "entity": "salsa"
+            "value": "Rach"
           }
         ],
-        "text": "Rach"
+        "text": "Rach",
+        "intent": "pedidoSalsas"
       },
       {
-        "intent": "pedidoSalsas",
         "entities": [
           {
+            "entity": "salsa",
             "start": 0,
             "end": 4,
-            "value": "[Ajo",
-            "entity": "salsa"
+            "value": "[Ajo"
           }
         ],
-        "text": "[Ajo"
+        "text": "[Ajo",
+        "intent": "pedidoSalsas"
       },
       {
-        "intent": "pedidoPapas",
         "entities": [
           {
+            "entity": "papas",
             "start": 8,
             "end": 13,
-            "value": "limon",
-            "entity": "papas"
+            "value": "limon"
           }
         ],
-        "text": "Papitas limon"
+        "text": "Papitas limon",
+        "intent": "pedidoPapas"
       },
       {
-        "intent": "pedidoPapas",
         "entities": [
           {
+            "entity": "papas",
             "start": 8,
             "end": 13,
-            "value": "Pollo",
-            "entity": "papas"
+            "value": "Pollo"
           }
         ],
-        "text": "Papitas Pollo"
+        "text": "Papitas Pollo",
+        "intent": "pedidoPapas"
       },
       {
-        "intent": "pedidoPapas",
         "entities": [
           {
+            "entity": "papas",
             "start": 8,
             "end": 17,
-            "value": "Naturales",
-            "entity": "papas"
+            "value": "Naturales"
           }
         ],
-        "text": "Papitas Naturales"
+        "text": "Papitas Naturales",
+        "intent": "pedidoPapas"
       },
       {
-        "intent": "pedidoPapas",
         "entities": [
           {
+            "entity": "papas",
             "start": 8,
             "end": 11,
-            "value": "BBQ",
-            "entity": "papas"
+            "value": "BBQ"
           }
         ],
-        "text": "Papitas BBQ"
+        "text": "Papitas BBQ",
+        "intent": "pedidoPapas"
       },
       {
-        "intent": "pedidoPapas",
         "entities": [
           {
+            "entity": "papas",
             "start": 11,
             "end": 17,
-            "value": "alitas",
-            "entity": "papas"
+            "value": "alitas"
           }
         ],
-        "text": "papitas de alitas"
+        "text": "papitas de alitas",
+        "intent": "pedidoPapas"
       },
       {
-        "intent": "pedidoPapas",
         "entities": [
           {
+            "entity": "papas",
             "start": 11,
             "end": 14,
-            "value": "sal",
-            "entity": "papas"
+            "value": "sal"
           }
         ],
-        "text": "papitas de sal"
+        "text": "papitas de sal",
+        "intent": "pedidoPapas"
       },
       {
-        "intent": "pedidoGalletas",
         "entities": [
           {
+            "entity": "galleta",
             "start": 11,
             "end": 22,
-            "value": "choco Chips",
-            "entity": "galleta"
+            "value": "choco Chips"
           }
         ],
-        "text": "Galleta de choco Chips"
+        "text": "Galleta de choco Chips",
+        "intent": "pedidoGalletas"
       },
       {
-        "intent": "pedidoGalletas",
         "entities": [
           {
+            "entity": "galleta",
             "start": 11,
             "end": 26,
-            "value": "doble Chocolate",
-            "entity": "galleta"
+            "value": "doble Chocolate"
           }
         ],
-        "text": "Galleta de doble Chocolate"
+        "text": "Galleta de doble Chocolate",
+        "intent": "pedidoGalletas"
       },
       {
-        "intent": "pedidoGalletas",
         "entities": [
           {
+            "entity": "galleta",
             "start": 8,
             "end": 17,
-            "value": "Macadamia",
-            "entity": "galleta"
+            "value": "Macadamia"
           }
         ],
-        "text": "Galleta Macadamia"
+        "text": "Galleta Macadamia",
+        "intent": "pedidoGalletas"
       },
       {
-        "intent": "pedidoGalletas",
         "entities": [
           {
+            "entity": "galleta",
             "start": 8,
             "end": 20,
-            "value": "Avenas pasas",
-            "entity": "galleta"
+            "value": "Avenas pasas"
           }
         ],
-        "text": "Galleta Avenas pasas"
+        "text": "Galleta Avenas pasas",
+        "intent": "pedidoGalletas"
       },
       {
-        "intent": "estado",
-        "text": "como va mi pedido"
-      },
-      {
-        "intent": "estado",
-        "text": "que llevo"
-      },
-      {
-        "intent": "confirmacion",
-        "text": "me gusta"
-      },
-      {
-        "intent": "confirmacion",
-        "text": "asi es como lo quiero"
-      },
-      {
-        "intent": "negacion",
-        "text": "esta horrible"
-      },
-      {
-        "intent": "negacion",
-        "text": "no lo quiero"
-      },
-      {
-        "intent": "negacion",
-        "text": "no me gusta"
-      },
-      {
-        "intent": "negacion",
-        "text": "esta asqueroso"
-      },
-      {
-        "intent": "negacion",
-        "text": "Gas"
-      },
-      {
-        "intent": "negacion",
-        "text": "cambiamelo"
-      },
-      {
-        "intent": "greet+pedidoTipo",
         "entities": [
           {
+            "entity": "gaseosa",
+            "start": 0,
+            "end": 5,
+            "value": "Pepsi"
+          }
+        ],
+        "text": "Pepsi",
+        "intent": "pedidoGaseosa"
+      },
+      {
+        "entities": [
+          {
+            "entity": "gaseosa",
+            "start": 0,
+            "end": 7,
+            "value": "Manzana"
+          }
+        ],
+        "text": "Manzana",
+        "intent": "pedidoGaseosa"
+      },
+      {
+        "entities": [
+          {
+            "entity": "gaseosa",
+            "start": 0,
+            "end": 10,
+            "value": "Colombiana"
+          }
+        ],
+        "text": "Colombiana",
+        "intent": "pedidoGaseosa"
+      },
+      {
+        "entities": [
+          {
+            "entity": "gaseosa",
+            "start": 0,
+            "end": 6,
+            "value": "Mr tea"
+          }
+        ],
+        "text": "Mr tea",
+        "intent": "pedidoGaseosa"
+      },
+      {
+        "text": "como va mi pedido",
+        "intent": "estado"
+      },
+      {
+        "text": "que llevo",
+        "intent": "estado"
+      },
+      {
+        "text": "me gusta",
+        "intent": "confirmacion"
+      },
+      {
+        "text": "asi es como lo quiero",
+        "intent": "confirmacion"
+      },
+      {
+        "text": "esta horrible",
+        "intent": "negacion"
+      },
+      {
+        "text": "no lo quiero",
+        "intent": "negacion"
+      },
+      {
+        "text": "no me gusta",
+        "intent": "negacion"
+      },
+      {
+        "text": "esta asqueroso",
+        "intent": "negacion"
+      },
+      {
+        "text": "Gas",
+        "intent": "negacion"
+      },
+      {
+        "text": "cambiamelo",
+        "intent": "negacion"
+      },
+      {
+        "text": "no",
+        "intent": "negacion"
+      },
+      {
+        "text": "ninguno",
+        "intent": "negacion"
+      },
+      {
+        "entities": [
+          {
+            "entity": "tipo",
             "start": 15,
             "end": 25,
-            "value": "baratisimo",
-            "entity": "tipo"
+            "value": "baratisimo"
           }
         ],
-        "text": "hola quiero un baratisimo"
+        "text": "hola quiero un baratisimo",
+        "intent": "greet+pedidoTipo"
       },
       {
-        "intent": "greet+pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 28,
             "end": 33,
-            "value": "jamon",
-            "entity": "tipo"
+            "value": "jamon"
           }
         ],
-        "text": "hola de nuevo quiero uno de jamon"
+        "text": "hola de nuevo quiero uno de jamon",
+        "intent": "greet+pedidoTipo"
       },
       {
-        "intent": "greet+pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 20,
             "end": 32,
-            "value": "Pavo y jamon",
-            "entity": "tipo"
+            "value": "Pavo y jamon"
           }
         ],
-        "text": "hey , quiero uno de Pavo y jamon"
+        "text": "hey , quiero uno de Pavo y jamon",
+        "intent": "greet+pedidoTipo"
       },
       {
-        "intent": "greet+pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 22,
             "end": 37,
-            "value": "pechuga de pavo",
-            "entity": "tipo"
+            "value": "pechuga de pavo"
           }
         ],
-        "text": "buenas, quiero uno de pechuga de pavo"
+        "text": "buenas, quiero uno de pechuga de pavo",
+        "intent": "greet+pedidoTipo"
       },
       {
-        "intent": "greet+pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 20,
             "end": 35,
-            "value": "pechuga de pavo",
-            "entity": "tipo"
+            "value": "pechuga de pavo"
           }
         ],
-        "text": "buen dia,  dame uno pechuga de pavo"
+        "text": "buen dia,  dame uno pechuga de pavo",
+        "intent": "greet+pedidoTipo"
       },
       {
-        "intent": "greet+pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 23,
             "end": 35,
-            "value": "italianisimo",
-            "entity": "tipo"
+            "value": "italianisimo"
           }
         ],
-        "text": "buenos dias, quiero un italianisimo"
+        "text": "buenos dias, quiero un italianisimo",
+        "intent": "greet+pedidoTipo"
       },
       {
-        "intent": "greet+pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 29,
             "end": 45,
-            "value": "cerdo desmechado",
-            "entity": "tipo"
+            "value": "cerdo desmechado"
           }
         ],
-        "text": "buenas tardes, quiero uno de cerdo desmechado"
+        "text": "buenas tardes, quiero uno de cerdo desmechado",
+        "intent": "greet+pedidoTipo"
       },
       {
-        "intent": "greet+pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 29,
             "end": 45,
-            "value": "pelluga de pollo",
-            "entity": "tipo"
+            "value": "pelluga de pollo"
           }
         ],
-        "text": "buenas noches, quiero uno de pelluga de pollo"
+        "text": "buenas noches, quiero uno de pelluga de pollo",
+        "intent": "greet+pedidoTipo"
       },
       {
-        "intent": "greet+pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 20,
             "end": 32,
-            "value": "Italiano BTM",
-            "entity": "tipo"
+            "value": "Italiano BTM"
           }
         ],
-        "text": "Hola, quiero uno de Italiano BTM"
+        "text": "Hola, quiero uno de Italiano BTM",
+        "intent": "greet+pedidoTipo"
       },
       {
-        "intent": "greet+pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 29,
             "end": 42,
-            "value": "Costillas BBQ",
-            "entity": "tipo"
+            "value": "Costillas BBQ"
           }
         ],
-        "text": "Hola de nuevo, quiero uno de Costillas BBQ"
+        "text": "Hola de nuevo, quiero uno de Costillas BBQ",
+        "intent": "greet+pedidoTipo"
       },
       {
-        "intent": "greet+pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 19,
             "end": 23,
-            "value": "Atun",
-            "entity": "tipo"
+            "value": "Atun"
           }
         ],
-        "text": "Hey, quiero uno de Atun"
+        "text": "Hey, quiero uno de Atun",
+        "intent": "greet+pedidoTipo"
       },
       {
-        "intent": "greet+pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 22,
             "end": 36,
-            "value": "Pollo Teriyaky",
-            "entity": "tipo"
+            "value": "Pollo Teriyaky"
           }
         ],
-        "text": "Buenas, quiero uno de Pollo Teriyaky"
+        "text": "Buenas, quiero uno de Pollo Teriyaky",
+        "intent": "greet+pedidoTipo"
       },
       {
-        "intent": "greet+pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 20,
             "end": 24,
-            "value": "Melt",
-            "entity": "tipo"
+            "value": "Melt"
           }
         ],
-        "text": "Huen dia, quiero un Melt"
+        "text": "Huen dia, quiero un Melt",
+        "intent": "greet+pedidoTipo"
       },
       {
-        "intent": "greet+pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 21,
             "end": 25,
-            "value": "Club",
-            "entity": "tipo"
+            "value": "Club"
           }
         ],
-        "text": "Buenos diasquiero un Club"
+        "text": "Buenos diasquiero un Club",
+        "intent": "greet+pedidoTipo"
       },
       {
-        "intent": "greet+pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 25,
             "end": 36,
-            "value": "Roasts Beef",
-            "entity": "tipo"
+            "value": "Roasts Beef"
           }
         ],
-        "text": "Buenas tardes, quiero un Roasts Beef"
+        "text": "Buenas tardes, quiero un Roasts Beef",
+        "intent": "greet+pedidoTipo"
       },
       {
-        "intent": "greet+pedidoTipo",
         "entities": [
           {
+            "entity": "tipo",
             "start": 26,
             "end": 36,
-            "value": "baratisimo",
-            "entity": "tipo"
+            "value": "baratisimo"
           }
         ],
-        "text": "Buenas noches,  quiero un baratisimo"
+        "text": "Buenas noches,  quiero un baratisimo",
+        "intent": "greet+pedidoTipo"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano",
         "entities": [
           {
+            "entity": "tipo",
             "start": 15,
             "end": 25,
-            "value": "baratisimo",
-            "entity": "tipo"
+            "value": "baratisimo"
           },
           {
+            "entity": "tamano",
             "start": 29,
             "end": 31,
-            "value": "15",
-            "entity": "tamano"
+            "value": "15"
           }
         ],
-        "text": "hola quiero un baratisimo de 15 cm"
+        "text": "hola quiero un baratisimo de 15 cm",
+        "intent": "greet+pedidoTipo+pedidoTamano"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano",
         "entities": [
           {
+            "entity": "tipo",
             "start": 28,
             "end": 33,
-            "value": "jamon",
-            "entity": "tipo"
+            "value": "jamon"
           },
           {
+            "entity": "tamano",
             "start": 37,
             "end": 39,
-            "value": "30",
-            "entity": "tamano"
+            "value": "30"
           }
         ],
-        "text": "hola de nuevo quiero uno de jamon de 30 cm"
+        "text": "hola de nuevo quiero uno de jamon de 30 cm",
+        "intent": "greet+pedidoTipo+pedidoTamano"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano",
         "entities": [
           {
+            "entity": "tipo",
             "start": 20,
             "end": 32,
-            "value": "Pavo y jamon",
-            "entity": "tipo"
+            "value": "Pavo y jamon"
           },
           {
+            "entity": "tamano",
             "start": 36,
             "end": 38,
-            "value": "15",
-            "entity": "tamano"
+            "value": "15"
           }
         ],
-        "text": "hey , quiero uno de Pavo y jamon de 15"
+        "text": "hey , quiero uno de Pavo y jamon de 15",
+        "intent": "greet+pedidoTipo+pedidoTamano"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano",
         "entities": [
           {
+            "entity": "tipo",
             "start": 22,
             "end": 37,
-            "value": "pechuga de pavo",
-            "entity": "tipo"
+            "value": "pechuga de pavo"
           },
           {
+            "entity": "tamano",
             "start": 41,
             "end": 43,
-            "value": "30",
-            "entity": "tamano"
+            "value": "30"
           }
         ],
-        "text": "buenas, quiero uno de pechuga de pavo de 30"
+        "text": "buenas, quiero uno de pechuga de pavo de 30",
+        "intent": "greet+pedidoTipo+pedidoTamano"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano",
         "entities": [
           {
+            "entity": "tipo",
             "start": 20,
             "end": 35,
-            "value": "pechuga de pavo",
-            "entity": "tipo"
+            "value": "pechuga de pavo"
           },
           {
+            "entity": "tamano",
             "start": 39,
             "end": 41,
-            "value": "15",
-            "entity": "tamano"
+            "value": "15"
           }
         ],
-        "text": "buen dia,  dame uno pechuga de pavo de 15 cm"
+        "text": "buen dia,  dame uno pechuga de pavo de 15 cm",
+        "intent": "greet+pedidoTipo+pedidoTamano"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano",
         "entities": [
           {
+            "entity": "tipo",
             "start": 23,
             "end": 35,
-            "value": "italianisimo",
-            "entity": "tipo"
+            "value": "italianisimo"
           },
           {
+            "entity": "tamano",
             "start": 39,
             "end": 41,
-            "value": "30",
-            "entity": "tamano"
+            "value": "30"
           }
         ],
-        "text": "buenos dias, quiero un italianisimo de 30 cm"
+        "text": "buenos dias, quiero un italianisimo de 30 cm",
+        "intent": "greet+pedidoTipo+pedidoTamano"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano",
         "entities": [
           {
+            "entity": "tipo",
             "start": 29,
             "end": 45,
-            "value": "cerdo desmechado",
-            "entity": "tipo"
+            "value": "cerdo desmechado"
           },
           {
+            "entity": "tamano",
             "start": 49,
             "end": 51,
-            "value": "30",
-            "entity": "tamano"
+            "value": "30"
           }
         ],
-        "text": "buenas tardes, quiero uno de cerdo desmechado de 30 cm"
+        "text": "buenas tardes, quiero uno de cerdo desmechado de 30 cm",
+        "intent": "greet+pedidoTipo+pedidoTamano"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano",
         "entities": [
           {
+            "entity": "tipo",
             "start": 29,
             "end": 45,
-            "value": "pelluga de pollo",
-            "entity": "tipo"
+            "value": "pelluga de pollo"
           },
           {
+            "entity": "tamano",
             "start": 49,
             "end": 51,
-            "value": "15",
-            "entity": "tamano"
+            "value": "15"
           }
         ],
-        "text": "buenas noches, quiero uno de pelluga de pollo de 15"
+        "text": "buenas noches, quiero uno de pelluga de pollo de 15",
+        "intent": "greet+pedidoTipo+pedidoTamano"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano",
         "entities": [
           {
+            "entity": "tipo",
             "start": 20,
             "end": 32,
-            "value": "Italiano BTM",
-            "entity": "tipo"
+            "value": "Italiano BTM"
           },
           {
+            "entity": "tamano",
             "start": 36,
             "end": 38,
-            "value": "30",
-            "entity": "tamano"
+            "value": "30"
           }
         ],
-        "text": "Hola, quiero uno de Italiano BTM de 30 cm"
+        "text": "Hola, quiero uno de Italiano BTM de 30 cm",
+        "intent": "greet+pedidoTipo+pedidoTamano"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano",
         "entities": [
           {
+            "entity": "tipo",
             "start": 29,
             "end": 42,
-            "value": "Costillas BBQ",
-            "entity": "tipo"
+            "value": "Costillas BBQ"
           },
           {
+            "entity": "tamano",
             "start": 45,
             "end": 47,
-            "value": "15",
-            "entity": "tamano"
+            "value": "15"
           }
         ],
-        "text": "Hola de nuevo, quiero uno de Costillas BBQde 15"
+        "text": "Hola de nuevo, quiero uno de Costillas BBQde 15",
+        "intent": "greet+pedidoTipo+pedidoTamano"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano",
         "entities": [
           {
+            "entity": "tipo",
             "start": 19,
             "end": 23,
-            "value": "Atun",
-            "entity": "tipo"
+            "value": "Atun"
           },
           {
+            "entity": "tamano",
             "start": 27,
             "end": 29,
-            "value": "30",
-            "entity": "tamano"
+            "value": "30"
           }
         ],
-        "text": "Hey, quiero uno de Atun de 30"
+        "text": "Hey, quiero uno de Atun de 30",
+        "intent": "greet+pedidoTipo+pedidoTamano"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano",
         "entities": [
           {
+            "entity": "tipo",
             "start": 22,
             "end": 36,
-            "value": "Pollo Teriyaky",
-            "entity": "tipo"
+            "value": "Pollo Teriyaky"
           },
           {
+            "entity": "tamano",
             "start": 40,
             "end": 42,
-            "value": "30",
-            "entity": "tamano"
+            "value": "30"
           }
         ],
-        "text": "Buenas, quiero uno de Pollo Teriyaky de 30 cm"
+        "text": "Buenas, quiero uno de Pollo Teriyaky de 30 cm",
+        "intent": "greet+pedidoTipo+pedidoTamano"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano",
         "entities": [
           {
+            "entity": "tipo",
             "start": 20,
             "end": 24,
-            "value": "Melt",
-            "entity": "tipo"
+            "value": "Melt"
           },
           {
+            "entity": "tamano",
             "start": 28,
             "end": 30,
-            "value": "30",
-            "entity": "tamano"
+            "value": "30"
           }
         ],
-        "text": "Huen dia, quiero un Melt de 30 cm"
+        "text": "Huen dia, quiero un Melt de 30 cm",
+        "intent": "greet+pedidoTipo+pedidoTamano"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano",
         "entities": [
           {
+            "entity": "tipo",
             "start": 21,
             "end": 25,
-            "value": "Club",
-            "entity": "tipo"
+            "value": "Club"
           },
           {
+            "entity": "tamano",
             "start": 29,
             "end": 31,
-            "value": "30",
-            "entity": "tamano"
+            "value": "30"
           }
         ],
-        "text": "Buenos diasquiero un Club de 30 cm"
+        "text": "Buenos diasquiero un Club de 30 cm",
+        "intent": "greet+pedidoTipo+pedidoTamano"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano",
         "entities": [
           {
+            "entity": "tipo",
             "start": 25,
             "end": 36,
-            "value": "Roasts Beef",
-            "entity": "tipo"
+            "value": "Roasts Beef"
           },
           {
+            "entity": "tamano",
             "start": 40,
             "end": 42,
-            "value": "30",
-            "entity": "tamano"
+            "value": "30"
           }
         ],
-        "text": "Buenas tardes, quiero un Roasts Beef de 30"
+        "text": "Buenas tardes, quiero un Roasts Beef de 30",
+        "intent": "greet+pedidoTipo+pedidoTamano"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano",
         "entities": [
           {
+            "entity": "tipo",
             "start": 26,
             "end": 36,
-            "value": "baratisimo",
-            "entity": "tipo"
+            "value": "baratisimo"
           },
           {
+            "entity": "tamano",
             "start": 40,
             "end": 42,
-            "value": "30",
-            "entity": "tamano"
+            "value": "30"
           }
         ],
-        "text": "Buenas noches,  quiero un baratisimo de 30 cm"
+        "text": "Buenas noches,  quiero un baratisimo de 30 cm",
+        "intent": "greet+pedidoTipo+pedidoTamano"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan",
         "entities": [
           {
+            "entity": "tipo",
             "start": 15,
             "end": 25,
-            "value": "baratisimo",
-            "entity": "tipo"
+            "value": "baratisimo"
           },
           {
+            "entity": "tamano",
             "start": 29,
             "end": 31,
-            "value": "15",
-            "entity": "tamano"
+            "value": "15"
           },
           {
+            "entity": "pan",
             "start": 43,
             "end": 48,
-            "value": "avena",
-            "entity": "pan"
+            "value": "avena"
           }
         ],
-        "text": "hola quiero un baratisimo de 15 cm, en pan avena"
+        "text": "hola quiero un baratisimo de 15 cm, en pan avena",
+        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan",
         "entities": [
           {
+            "entity": "tipo",
             "start": 28,
             "end": 33,
-            "value": "jamon",
-            "entity": "tipo"
+            "value": "jamon"
           },
           {
+            "entity": "tamano",
             "start": 37,
             "end": 39,
-            "value": "30",
-            "entity": "tamano"
+            "value": "30"
           },
           {
+            "entity": "pan",
             "start": 52,
             "end": 58,
-            "value": "blanco",
-            "entity": "pan"
+            "value": "blanco"
           }
         ],
-        "text": "hola de nuevo quiero uno de jamon de 30 cm, con pan blanco"
+        "text": "hola de nuevo quiero uno de jamon de 30 cm, con pan blanco",
+        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan",
         "entities": [
           {
+            "entity": "tipo",
             "start": 20,
             "end": 32,
-            "value": "Pavo y jamon",
-            "entity": "tipo"
+            "value": "Pavo y jamon"
           },
           {
+            "entity": "tamano",
             "start": 36,
             "end": 38,
-            "value": "15",
-            "entity": "tamano"
+            "value": "15"
           },
           {
+            "entity": "pan",
             "start": 48,
             "end": 55,
-            "value": "oregano",
-            "entity": "pan"
+            "value": "oregano"
           }
         ],
-        "text": "hey , quiero uno de Pavo y jamon de 15, con pan oregano"
+        "text": "hey , quiero uno de Pavo y jamon de 15, con pan oregano",
+        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan",
         "entities": [
           {
+            "entity": "tipo",
             "start": 22,
             "end": 37,
-            "value": "pechuga de pavo",
-            "entity": "tipo"
+            "value": "pechuga de pavo"
           },
           {
+            "entity": "tamano",
             "start": 41,
             "end": 43,
-            "value": "30",
-            "entity": "tamano"
+            "value": "30"
           },
           {
+            "entity": "pan",
             "start": 53,
             "end": 61,
-            "value": "integral",
-            "entity": "pan"
+            "value": "integral"
           }
         ],
-        "text": "buenas, quiero uno de pechuga de pavo de 30, con pan integral"
+        "text": "buenas, quiero uno de pechuga de pavo de 30, con pan integral",
+        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan",
         "entities": [
           {
+            "entity": "tipo",
             "start": 20,
             "end": 35,
-            "value": "pechuga de pavo",
-            "entity": "tipo"
+            "value": "pechuga de pavo"
           },
           {
+            "entity": "tamano",
             "start": 39,
             "end": 41,
-            "value": "15",
-            "entity": "tamano"
+            "value": "15"
           },
           {
+            "entity": "pan",
             "start": 53,
             "end": 61,
-            "value": "integral",
-            "entity": "pan"
+            "value": "integral"
           }
         ],
-        "text": "buen dia,  dame uno pechuga de pavo de 15 cm con pan integral"
+        "text": "buen dia,  dame uno pechuga de pavo de 15 cm con pan integral",
+        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan",
         "entities": [
           {
+            "entity": "tipo",
             "start": 23,
             "end": 35,
-            "value": "italianisimo",
-            "entity": "tipo"
+            "value": "italianisimo"
           },
           {
+            "entity": "tamano",
             "start": 39,
             "end": 41,
-            "value": "30",
-            "entity": "tamano"
+            "value": "30"
           },
           {
+            "entity": "pan",
             "start": 53,
             "end": 59,
-            "value": "blanco",
-            "entity": "pan"
+            "value": "blanco"
           }
         ],
-        "text": "buenos dias, quiero un italianisimo de 30 cm con pan blanco"
+        "text": "buenos dias, quiero un italianisimo de 30 cm con pan blanco",
+        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan",
         "entities": [
           {
+            "entity": "tipo",
             "start": 29,
             "end": 45,
-            "value": "cerdo desmechado",
-            "entity": "tipo"
+            "value": "cerdo desmechado"
           },
           {
+            "entity": "tamano",
             "start": 49,
             "end": 51,
-            "value": "30",
-            "entity": "tamano"
+            "value": "30"
           },
           {
+            "entity": "pan",
             "start": 63,
             "end": 70,
-            "value": "oregano",
-            "entity": "pan"
+            "value": "oregano"
           }
         ],
-        "text": "buenas tardes, quiero uno de cerdo desmechado de 30 cm con pan oregano"
+        "text": "buenas tardes, quiero uno de cerdo desmechado de 30 cm con pan oregano",
+        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan",
         "entities": [
           {
+            "entity": "tipo",
             "start": 29,
             "end": 45,
-            "value": "pelluga de pollo",
-            "entity": "tipo"
+            "value": "pelluga de pollo"
           },
           {
+            "entity": "tamano",
             "start": 49,
             "end": 51,
-            "value": "15",
-            "entity": "tamano"
+            "value": "15"
           },
           {
+            "entity": "pan",
             "start": 60,
             "end": 66,
-            "value": "blanco",
-            "entity": "pan"
+            "value": "blanco"
           }
         ],
-        "text": "buenas noches, quiero uno de pelluga de pollo de 15 con pan blanco"
+        "text": "buenas noches, quiero uno de pelluga de pollo de 15 con pan blanco",
+        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan",
         "entities": [
           {
+            "entity": "tipo",
             "start": 20,
             "end": 32,
-            "value": "Italiano BTM",
-            "entity": "tipo"
+            "value": "Italiano BTM"
           },
           {
+            "entity": "tamano",
             "start": 36,
             "end": 38,
-            "value": "30",
-            "entity": "tamano"
+            "value": "30"
           },
           {
+            "entity": "pan",
             "start": 50,
             "end": 56,
-            "value": "blanco",
-            "entity": "pan"
+            "value": "blanco"
           },
           {
+            "entity": "pan",
             "start": 65,
             "end": 73,
-            "value": "integral",
-            "entity": "pan"
+            "value": "integral"
           }
         ],
-        "text": "Hola, quiero uno de Italiano BTM de 30 cm con pan blanco con pan integral"
+        "text": "Hola, quiero uno de Italiano BTM de 30 cm con pan blanco con pan integral",
+        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan",
         "entities": [
           {
+            "entity": "tipo",
             "start": 29,
             "end": 42,
-            "value": "Costillas BBQ",
-            "entity": "tipo"
+            "value": "Costillas BBQ"
           },
           {
+            "entity": "tamano",
             "start": 45,
             "end": 47,
-            "value": "15",
-            "entity": "tamano"
+            "value": "15"
           },
           {
+            "entity": "pan",
             "start": 56,
             "end": 64,
-            "value": "integral",
-            "entity": "pan"
+            "value": "integral"
           }
         ],
-        "text": "Hola de nuevo, quiero uno de Costillas BBQde 15 con pan integral"
+        "text": "Hola de nuevo, quiero uno de Costillas BBQde 15 con pan integral",
+        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan",
         "entities": [
           {
+            "entity": "tipo",
             "start": 19,
             "end": 23,
-            "value": "Atun",
-            "entity": "tipo"
+            "value": "Atun"
           },
           {
+            "entity": "tamano",
             "start": 27,
             "end": 29,
-            "value": "30",
-            "entity": "tamano"
+            "value": "30"
           },
           {
+            "entity": "pan",
             "start": 39,
             "end": 47,
-            "value": "integral",
-            "entity": "pan"
+            "value": "integral"
           }
         ],
-        "text": "Hey, quiero uno de Atun de 30  con pan integral"
+        "text": "Hey, quiero uno de Atun de 30  con pan integral",
+        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan",
         "entities": [
           {
+            "entity": "tipo",
             "start": 22,
             "end": 36,
-            "value": "Pollo Teriyaky",
-            "entity": "tipo"
+            "value": "Pollo Teriyaky"
           },
           {
+            "entity": "tamano",
             "start": 40,
             "end": 42,
-            "value": "30",
-            "entity": "tamano"
+            "value": "30"
           },
           {
+            "entity": "pan",
             "start": 55,
             "end": 63,
-            "value": "integral",
-            "entity": "pan"
+            "value": "integral"
           }
         ],
-        "text": "Buenas, quiero uno de Pollo Teriyaky de 30 cm  con pan integral"
+        "text": "Buenas, quiero uno de Pollo Teriyaky de 30 cm  con pan integral",
+        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan",
         "entities": [
           {
+            "entity": "tipo",
             "start": 20,
             "end": 24,
-            "value": "Melt",
-            "entity": "tipo"
+            "value": "Melt"
           },
           {
+            "entity": "tamano",
             "start": 28,
             "end": 30,
-            "value": "30",
-            "entity": "tamano"
+            "value": "30"
           },
           {
+            "entity": "pan",
             "start": 46,
             "end": 54,
-            "value": "integral",
-            "entity": "pan"
+            "value": "integral"
           }
         ],
-        "text": "Huen dia, quiero un Melt de 30 cm en  con pan integral"
+        "text": "Huen dia, quiero un Melt de 30 cm en  con pan integral",
+        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan",
         "entities": [
           {
+            "entity": "tipo",
             "start": 21,
             "end": 25,
-            "value": "Club",
-            "entity": "tipo"
+            "value": "Club"
           },
           {
+            "entity": "tamano",
             "start": 29,
             "end": 31,
-            "value": "30",
-            "entity": "tamano"
+            "value": "30"
           },
           {
+            "entity": "pan",
             "start": 46,
             "end": 54,
-            "value": "integral",
-            "entity": "pan"
+            "value": "integral"
           }
         ],
-        "text": "Buenos diasquiero un Club de 30 cm en con pan integral"
+        "text": "Buenos diasquiero un Club de 30 cm en con pan integral",
+        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan",
         "entities": [
           {
+            "entity": "tipo",
             "start": 25,
             "end": 36,
-            "value": "Roasts Beef",
-            "entity": "tipo"
+            "value": "Roasts Beef"
           },
           {
+            "entity": "tamano",
             "start": 40,
             "end": 42,
-            "value": "30",
-            "entity": "tamano"
+            "value": "30"
           },
           {
+            "entity": "pan",
             "start": 51,
             "end": 59,
-            "value": "integral",
-            "entity": "pan"
+            "value": "integral"
           }
         ],
-        "text": "Buenas tardes, quiero un Roasts Beef de 30 con pan integral"
+        "text": "Buenas tardes, quiero un Roasts Beef de 30 con pan integral",
+        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan"
       },
       {
-        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan",
         "entities": [
           {
+            "entity": "tipo",
             "start": 26,
             "end": 36,
-            "value": "baratisimo",
-            "entity": "tipo"
+            "value": "baratisimo"
           },
           {
+            "entity": "tamano",
             "start": 40,
             "end": 42,
-            "value": "30",
-            "entity": "tamano"
+            "value": "30"
           },
           {
+            "entity": "pan",
             "start": 54,
             "end": 62,
-            "value": "integral",
-            "entity": "pan"
+            "value": "integral"
           }
         ],
-        "text": "Buenas noches,  quiero un baratisimo de 30 cm con pan integral"
+        "text": "Buenas noches,  quiero un baratisimo de 30 cm con pan integral",
+        "intent": "greet+pedidoTipo+pedidoTamano+pedidoPan"
       }
     ],
     "regex_features": [],
-    "entity_synonyms": []
+    "entity_synonyms": [],
+    "lookup_tables": []
   }
 }

@@ -11,21 +11,41 @@ slots:
     type: text
   quesoAdicional:
     type: text
-  AdicionalNum:
+  adicional1:
     type: text
-  Adicional1:
+  adicional2:
     type: text
-  Adicional2:
+  adicional3:
     type: text
-  Adicional3:
+  vegetal:
     type: text
-  VegentalNum:
+  vegetal1:
     type: text
-  Vegental1:
+  vegetal2:
     type: text
-  Vegental2:
+  vegetal3:
     type: text
-  Vegental3:
+  vegetal4:
+    type: text
+  vegetal5:
+    type: text
+  vegetal6:
+    type: text
+  vegetal7:
+    type: text
+  vegetal8:
+    type: text
+  salsa1:
+    type: text
+  salsa2:
+    type: text
+  salsa3:
+    type: text
+  gaseosa:
+    type: text
+  galleta:
+    type: text
+  papas:
     type: text
   
 intents:
@@ -62,7 +82,7 @@ entities:
 
 templates:
   utter_greet:
-    - 'Bienvenido a Subway, puedo tomar su pedido?'
+    - 'Bienvenido a Subway, simpre tenemos un sub del dia, pregunta por el, te puedo mostrar el menu o prefieres pedir?'
   utter_goodbye:
     - 'hablame luego.'
   utter_pan:
@@ -141,6 +161,60 @@ templates:
     - 'creo que no te entiendo, pero seguro puedo ayudarte con tu pedido'
   utter_menu:
     - 'En subway encontraras un menu que te sorprendera , te podemos ofrecer \n sub baratisimo \n sub de jamon \n  sub de Pavo y jamon \n  sub italianisimo  \n  sub de cerdo desmechado  \n pelluga de pollo  \n Italiano BTM  \n sub de  Costillas BBQ  \n sub de Atun  \n sub de Pollo Teriyaky  \n  sub Melt  \n  sub Club  \n sub Roasts Beef'
+  utter_combo:
+  - text: 'Te podemos ofrecer un combo con papas y gaseosa'
+    buttons:
+    - title: "si"
+      payload: 'si'
+    - title: "no"
+      payload: 'no'
+  utter_gaseosa:
+  - text: 'Que gaseosa Deseas'
+    buttons:
+    - title: "manzana"
+      payload: 'manzana'
+    - title: "pepsi"
+      payload: 'pepsi'
+    - title: "Colombiana"
+      payload: 'Colombiana'
+    - title: "Mr tea"
+      payload: 'Mr tea'
+  utter_galleta:
+  - text: 'Que galleta Deseas'
+    buttons:
+    - title: "choco Chips"
+      payload: 'choco Chips'
+    - title: "doble Chocolate"
+      payload: 'doble Chocolate'
+    - title: "Macadamia"
+      payload: 'Macadamia'
+    - title: "Avenas pasas"
+      payload: 'Avenas pasas'
+  utter_papas:
+  - text: 'Que papitas Deseas'
+    buttons:
+    - title: "Limon"
+      payload: 'Papitas Limon'
+    - title: "Pollo"
+      payload: 'Papitas Pollo'
+    - title: "Naturales"
+      payload: 'Papitas Naturales'
+    - title: "Alitas"
+      payload: 'Papitas Alitas '
+    - title: "Sal"
+      payload: 'Papitas Sal'
+  utter_pedidoEdicion:
+  - text: 'Que desea cambiar de su pedido'
+    buttons:
+    - title: "Tipo"
+      payload: 'tipo'
+    - title: "doble Chocolate"
+      payload: 'doble Chocolate'
+    - title: "Macadamia"
+      payload: 'Macadamia'
+    - title: "Avenas pasas"
+      payload: 'Avenas pasas'
+  
 
 actions:
  - utter_greet
@@ -152,10 +226,15 @@ actions:
  - utter_adicion_queso
  - utter_queso
  - utter_menu
+ - utter_combo
+ - utter_galleta
+ - utter_gaseosa
+ - utter_papas
  - action_informacion_dia
  - action_informacion_sub
  - action_confirmar_sub
  - action_vegetal_adicional
+ - action_adicional
  - action_salsa_adicional
  - utter_fallback
 
